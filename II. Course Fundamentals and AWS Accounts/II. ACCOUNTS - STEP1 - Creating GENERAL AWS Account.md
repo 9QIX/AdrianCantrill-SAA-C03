@@ -2,7 +2,9 @@
 
 Welcome to the demo lesson on setting up your AWS account! We'll walk through the process of creating and securing your **General AWS Account**. This is an essential foundation for the course as you'll use this account for most of your activities and later link it with other accounts in multi-account management.
 
-#### Why Multiple Accounts?
+![alt text](image-1.png)
+
+### Why Multiple Accounts?
 
 In this course, you'll create and work with more than one AWS account. This is standard in real-world scenarios for better security, isolation, and organization. The first account you'll create is the **General AWS Account** (later referred to as the **Management Account**). Once you create this account, you'll configure it with best practices such as enabling MFA, setting up budgets, and creating IAM users.
 
