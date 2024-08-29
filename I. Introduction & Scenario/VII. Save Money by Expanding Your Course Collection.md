@@ -1,6 +1,6 @@
 # Course Upgrades: Save Money by Expanding Your Course Collection
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ## Expand Your Course Library and Save
 
