@@ -8,7 +8,7 @@ To understand IAM, let’s first look at the current state of your AWS accounts.
 
 ### Root User Privileges
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 - Each AWS account you’ve created so far has an **account root user**.
 - The root user has **full, unrestricted access** to everything in your AWS account.
@@ -16,14 +16,14 @@ To understand IAM, let’s first look at the current state of your AWS accounts.
 
 ### The Problem with Root User
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 - **Single Point of Failure**: If the credentials of the root user are compromised, an attacker can access all regions and all services in your account.
 - **No Restriction**: The root user cannot be restricted in any way, making it a high-risk account to rely on for day-to-day tasks.
 
 ## What is IAM?
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 **IAM** is a service that helps control **who** can access your AWS account and **what** they are allowed to do. It enables you to create multiple identities and assign permissions to them, allowing granular control over your AWS account.
 

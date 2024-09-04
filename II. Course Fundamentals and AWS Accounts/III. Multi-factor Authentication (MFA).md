@@ -42,7 +42,7 @@ In general, the more factors involved, the more secure the process. However, thi
 
 ## How MFA Works in AWS
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 ### Default Single-Factor Authentication
 

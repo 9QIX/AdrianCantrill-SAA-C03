@@ -2,7 +2,7 @@
 
 Welcome to the demo lesson on setting up your AWS account! We'll walk through the process of creating and securing your **General AWS Account**. This is an essential foundation for the course as you'll use this account for most of your activities and later link it with other accounts in multi-account management.
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 ### Why Multiple Accounts?
 

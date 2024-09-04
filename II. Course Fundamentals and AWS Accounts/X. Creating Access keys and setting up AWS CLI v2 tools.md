@@ -6,7 +6,7 @@ In this section of the course, we'll be diving into AWS Access Keys. By now, you
 
 Access Keys are long-term credentials used for accessing AWS via CLI or APIs instead of the console UI. Unlike passwords and MFA which are used for console access, Access Keys allow you to authenticate programmatically.
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 ### Key Points:
 
@@ -26,7 +26,7 @@ The critical difference is that **Access Keys** consist of an Access Key ID and 
 
 ## Managing Access Keys
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 Managing Access Keys involves various actions:
 

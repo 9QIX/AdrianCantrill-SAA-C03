@@ -8,7 +8,7 @@ We’ll be working on the general AWS account with the account root user. For th
 
 ### Why Add MFA?
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 Currently, logging into the general AWS account requires only a username and password. This method, known as **single-factor authentication**, uses only one type of secret (the password).
 
