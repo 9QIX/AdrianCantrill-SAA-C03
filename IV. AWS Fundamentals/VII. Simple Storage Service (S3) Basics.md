@@ -14,6 +14,8 @@ Amazon S3 is a global storage platform designed for high availability and durabi
 
 ### Objects
 
+![alt text](image-8.png)
+
 Objects are the fundamental entities stored in S3. They consist of:
 
 - **Object Key:** The identifier for the object, akin to a file name.
@@ -27,6 +29,8 @@ Other components include:
 - **Sub-resources**
 
 ### Buckets
+
+![alt text](image-9.png)
 
 Buckets are containers for objects and have the following features:
 
