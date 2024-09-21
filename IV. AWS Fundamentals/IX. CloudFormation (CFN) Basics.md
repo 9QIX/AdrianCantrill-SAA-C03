@@ -1,5 +1,3 @@
-Here's the detailed summary formatted for GitHub in Markdown:
-
 # AWS CloudFormation Overview
 
 ## Introduction
