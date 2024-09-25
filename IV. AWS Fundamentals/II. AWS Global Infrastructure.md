@@ -4,7 +4,7 @@ In this lesson, we'll explore how AWS has designed its global infrastructure and
 
 ## AWS Global Infrastructure Overview
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 Though AWS operates globally, its infrastructure is a collection of smaller, interconnected groups of infrastructure that span the globe. AWS provides a **global high-speed network** that links regions and edge locations to offer various levels of **resiliency** and **availability**.
 
@@ -21,7 +21,7 @@ By the end of this lesson, you’ll understand how each of these components work
 
 ## AWS Regions
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 ### What is a Region?
 
@@ -87,7 +87,7 @@ While some might think of AZs as individual data centers, they are often compose
 
 ## Service Resilience Levels
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 AWS services can be categorized based on their **resilience level**. Understanding the resilience of AWS services is critical for designing fault-tolerant architectures and for answering exam questions.
 

@@ -16,13 +16,13 @@ CloudFormation allows you to automate infrastructure creation, updates, and dele
 
 ## CloudFormation Template Structure
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 A CloudFormation template has various components that define how resources are created and managed. The most important parts of the template include:
 
 ### 1. **Resources**
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 - The only mandatory section in a template.
 - Defines the AWS resources to be created, updated, or deleted.
@@ -30,7 +30,7 @@ A CloudFormation template has various components that define how resources are c
 
 ### 2. **Description**
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 - A free-text field for documenting what the template does.
 - Can include information such as resources created, potential costs, and other details for users.
@@ -43,14 +43,14 @@ A CloudFormation template has various components that define how resources are c
 
 ### 4. **Metadata**
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 - Optional section to provide extra information.
 - Used to control the display of CloudFormation resources in the AWS Console UI, such as groupings, labels, and descriptions.
 
 ### 5. **Parameters**
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 - Enables customization by prompting users to input information during template execution.
 - Examples: instance types, availability zones, names, etc.
@@ -58,14 +58,14 @@ A CloudFormation template has various components that define how resources are c
 
 ### 6. **Mappings**
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 - Optional section that acts as a lookup table.
 - Example use case: selecting Amazon Machine Images (AMIs) based on region and environment type (e.g., test or production).
 
 ### 7. **Conditions**
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 - Allow decision-making in templates.
 - A condition is created based on specific parameters (e.g., if an environment is production).
@@ -73,7 +73,7 @@ A CloudFormation template has various components that define how resources are c
 
 ### 8. **Outputs**
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 - Presents key information after the template execution.
 - Example: Returning the EC2 instance ID or the admin address of a deployed WordPress blog.
@@ -82,7 +82,7 @@ A CloudFormation template has various components that define how resources are c
 
 ### Template to Stack Conversion
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 - **Templates**: Define resources and configurations.
 - **Stacks**: When a template is submitted to CloudFormation, it creates a **stack** containing all the defined resources (logical resources).
@@ -92,7 +92,7 @@ A CloudFormation template has various components that define how resources are c
 
 ### Stack Lifecycle
 
-![alt text](image-19.png)
+![alt text](./Images/image-19.png)
 
 - A stack represents a "live" template.
 - Updates to a template lead to updates in the stack (add, modify, or delete resources).

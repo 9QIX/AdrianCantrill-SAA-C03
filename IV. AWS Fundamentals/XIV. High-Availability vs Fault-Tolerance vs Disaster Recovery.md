@@ -4,7 +4,7 @@ In this lesson, we explore three critical concepts for any AWS Solutions Archite
 
 ## 1. **High Availability (HA)**
 
-![alt text](image-28.png)
+![alt text](./Images/image-28.png)
 
 ### Definition
 
@@ -26,7 +26,7 @@ High Availability (HA) refers to designing a system to ensure an agreed level of
 
 ## 2. **Fault Tolerance (FT)**
 
-![alt text](image-29.png)
+![alt text](./Images/image-29.png)
 
 ### Definition
 
@@ -48,7 +48,7 @@ Fault Tolerance is the property that enables a system to **continue operating** 
 
 ## 3. **Disaster Recovery (DR)**
 
-![alt text](image-30.png)
+![alt text](./Images/image-30.png)
 
 ### Definition
 

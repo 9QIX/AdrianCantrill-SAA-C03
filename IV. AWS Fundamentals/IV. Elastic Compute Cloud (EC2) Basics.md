@@ -25,7 +25,7 @@ Welcome back! In this lesson, we introduce **Elastic Compute Cloud (EC2)**, one 
   - **Stopped**: Only **storage charges** remain.
   - **Terminated**: All charges stop, but this action is **irreversible**.
 
-  ![alt text](image-5.png)
+  ![alt text](./Images/image-5.png)
 
 ### Storage Options
 
@@ -34,7 +34,7 @@ Welcome back! In this lesson, we introduce **Elastic Compute Cloud (EC2)**, one 
 
 ## EC2 and Amazon Machine Image (AMI)
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 An **Amazon Machine Image (AMI)** is a pre-configured template that can be used to create EC2 instances. Think of it as similar to a **server image** in traditional on-premise setups.
 
@@ -50,7 +50,7 @@ An **Amazon Machine Image (AMI)** is a pre-configured template that can be used 
 
 ## Connecting to EC2 Instances
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 ### Protocols for Connection:
 

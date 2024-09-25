@@ -18,7 +18,7 @@ VPCs are **region-specific** and operate across multiple availability zones (AZs
 
 ## Key Features of VPCs
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 - **Private and Isolated**: VPCs are private by default. Communication between services inside the same VPC is allowed, but external communication (public internet or other VPCs) must be explicitly configured.
 - **Regional Service**: VPCs operate within the scope of a single AWS region but span multiple availability zones for resilience.

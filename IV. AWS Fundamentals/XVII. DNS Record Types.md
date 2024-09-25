@@ -4,7 +4,7 @@ In this lesson, we will cover the different types of DNS records, their use case
 
 ## **1. NS Records (Name Server Records)**
 
-![alt text](image-33.png)
+![alt text](./Images/image-33.png)
 
 **NS (Name Server) records** allow delegation within the DNS system. Here's how they work:
 
@@ -17,7 +17,7 @@ In this lesson, we will cover the different types of DNS records, their use case
 
 ## **2. A and AAAA Records**
 
-![alt text](image-34.png)
+![alt text](./Images/image-34.png)
 
 These are the most common DNS records used to map domain names to IP addresses:
 
@@ -30,7 +30,7 @@ Typically, both an **A** and **AAAA** record are created for the same domain, al
 
 ## **3. CNAME Records (Canonical Name Records)**
 
-![alt text](image-35.png)
+![alt text](./Images/image-35.png)
 
 **CNAME records** create DNS aliases, mapping one domain name to another. For instance:
 
@@ -44,7 +44,7 @@ Typically, both an **A** and **AAAA** record are created for the same domain, al
 
 ## **4. MX Records (Mail Exchange Records)**
 
-![alt text](image-36.png)
+![alt text](./Images/image-36.png)
 
 **MX records** are critical for handling email delivery. They define the mail servers responsible for receiving email for a domain:
 
@@ -61,7 +61,7 @@ When an email is sent, the sender's email server looks up the MX records for the
 
 ## **5. TXT Records (Text Records)**
 
-![alt text](image-37.png)
+![alt text](./Images/image-37.png)
 
 **TXT records** allow adding arbitrary text data to a DNS zone. They have a variety of use cases, including:
 
@@ -74,7 +74,7 @@ If you want to prove ownership of the domain `animalsforlife.com`, you might add
 
 ## **6. DNS TTL (Time to Live)**
 
-![alt text](image-38.png)
+![alt text](./Images/image-38.png)
 
 **TTL** represents the duration (in seconds) that a DNS record can be cached by clients or DNS resolvers. It balances between reducing query load and ensuring changes to DNS records propagate quickly.
 

@@ -17,7 +17,7 @@ Key features:
 
 ## Domain Registration with Route 53
 
-![alt text](image-31.png)
+![alt text](./Images/image-31.png)
 
 Route 53 handles domain registration by working directly with domain registries, the organizations responsible for managing top-level domains (TLDs). Here’s an overview of how domain registration works:
 
@@ -30,7 +30,7 @@ Route 53 handles domain registration by working directly with domain registries,
 
 ### Key Terms:
 
-![alt text](image-32.png)
+![alt text](./Images/image-32.png)
 
 - **Zone File**: A database that holds DNS records for a domain.
 - **Name Servers**: Servers that hold the zone file and respond to DNS queries.

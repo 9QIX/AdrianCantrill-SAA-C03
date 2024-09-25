@@ -49,7 +49,7 @@ CloudWatch Events act as an event hub, capable of:
 
 ## CloudWatch Architecture
 
-![alt text](image-20.png)
+![alt text](./Images/image-20.png)
 
 CloudWatch integrates with multiple data sources to gather and manage metrics and logs. These sources can include AWS services, custom applications, or on-premises systems. The data is stored in CloudWatch and can be accessed through the AWS Console, CLI, or API.
 
@@ -67,7 +67,7 @@ This data is then processed and presented as metrics, which can trigger alarms a
 
 ### 1. **Namespaces**
 
-![alt text](image-21.png)
+![alt text](./Images/image-21.png)
 
 Namespaces in CloudWatch act as containers for organizing related metrics and preventing conflicts between data from different systems.
 
@@ -76,7 +76,7 @@ Namespaces in CloudWatch act as containers for organizing related metrics and pr
 
 ### 2. **Metrics**
 
-![alt text](image-22.png)
+![alt text](./Images/image-22.png)
 
 Metrics in CloudWatch are time-ordered collections of data points. Each data point consists of:
 
@@ -87,7 +87,7 @@ Metrics are not specific to individual resources but represent the performance o
 
 ### 3. **Data Points**
 
-![alt text](image-23.png)
+![alt text](./Images/image-23.png)
 
 A data point is a single measurement sent to CloudWatch, containing:
 
@@ -96,13 +96,13 @@ A data point is a single measurement sent to CloudWatch, containing:
 
 ### 4. **Dimensions**
 
-![alt text](image-24.png)
+![alt text](./Images/image-24.png)
 
 Dimensions allow you to filter and organize metrics. For example, you can track multiple EC2 instances' CPU utilization within the same metric, differentiating them using the `InstanceID` dimension.
 
 ## Alarms in CloudWatch
 
-![alt text](image-25.png)
+![alt text](./Images/image-25.png)
 
 ### 1. **Alarm States**
 

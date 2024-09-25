@@ -20,7 +20,7 @@ When discussing **access to services**, it is important to separate **permission
 
 Even though **S3** is considered a public service, by default, only the **root user** has access unless permissions are explicitly set for other users or services.
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ## Network Zones in AWS
 

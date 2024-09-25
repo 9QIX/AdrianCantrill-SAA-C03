@@ -2,7 +2,7 @@
 
 Welcome back! In this lesson, we're diving into one of the most fundamental concepts in AWS: **AWS Accounts**. Whether you're a solutions architect, developer, or engineer, understanding AWS accounts deeply is crucial for working with AWS at any scale.
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ## The Importance of AWS Accounts
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-27.png)
+![alt text](./Images/image-27.png)
 
 The **Shared Responsibility Model** is a key framework provided by AWS that defines which aspects of system security are managed by AWS and which are the customer's responsibility. This model is critical for understanding AWS services and their security implications.
 
@@ -49,7 +49,7 @@ Customers are responsible for the security of their applications, data, and conf
 
 ## Use Cases and Practical Application
 
-![alt text](image-26.png)
+![alt text](./Images/image-26.png)
 
 ### Example: EC2 Instance in AWS
 
