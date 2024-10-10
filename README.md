@@ -1,7 +1,7 @@
 # 🌟 AWS Certified Solutions Architect - Associate (SAA-C03) Course 🌟
 
 Welcome to the **AWS Certified Solutions Architect - Associate (SAA-C03)** course repository! 🎓 This repository contains all the resources and materials you need to ace the course and prepare for the AWS Solutions Architect - Associate certification exam. 🚀
-
+ 
 ## 📚 Course Overview
 
 The AWS Certified Solutions Architect is one of the most valuable and in-demand cloud certifications available. 🌟 It covers all the core AWS services and serves as a fantastic entry point into the most popular public cloud platform in the world today. 🌍
