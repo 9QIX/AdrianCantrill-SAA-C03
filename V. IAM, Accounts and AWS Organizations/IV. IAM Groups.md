@@ -4,6 +4,8 @@ This section covers **IAM Groups** in AWS, their functions, limitations, and com
 
 ## What are IAM Groups?
 
+![alt text](image-8.png)
+
 An **IAM Group** is a container used to organize **IAM Users**. Groups allow for easier management of large sets of users by assigning common permissions to multiple users simultaneously.
 
 ### Key Features:
