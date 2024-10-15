@@ -19,13 +19,13 @@ One of the most common uses of IAM roles is with AWS services themselves, such a
 
 ### Why Use Roles?
 
-![alt text](image-12.png)
-
 - **Security**: Avoids the security risk of hard-coded access keys.
 - **Flexibility**: Handles multiple invocations of the Lambda function efficiently (whether it's 1 or 100).
 - **Short-term Permissions**: The temporary credentials expire after the task is complete.
 
 ## Break-Glass Situations: Emergency Access
+
+![alt text](image-12.png)
 
 Another scenario is handling emergency situations where elevated permissions are temporarily needed.
 
