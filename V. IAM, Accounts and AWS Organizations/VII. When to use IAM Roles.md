@@ -4,6 +4,8 @@ In this lesson, we’ll explore specific scenarios where IAM roles are useful wi
 
 ## AWS Services Needing Permissions: Lambda Example
 
+![alt text](image-11.png)
+
 One of the most common uses of IAM roles is with AWS services themselves, such as **AWS Lambda**.
 
 - **Lambda Function**: A "function-as-a-service" product that allows you to run code without managing servers. The code might need to interact with other AWS resources, like starting EC2 instances or processing data.
@@ -16,6 +18,8 @@ One of the most common uses of IAM roles is with AWS services themselves, such a
 3. **Access Control**: The temporary credentials allow the Lambda runtime environment to access AWS resources, based on the role’s permission policy.
 
 ### Why Use Roles?
+
+![alt text](image-12.png)
 
 - **Security**: Avoids the security risk of hard-coded access keys.
 - **Flexibility**: Handles multiple invocations of the Lambda function efficiently (whether it's 1 or 100).
@@ -41,6 +45,8 @@ IAM roles are essential when integrating AWS with **existing corporate environme
 
 ### Scenario: Active Directory Integration
 
+![alt text](image-13.png)
+
 - **Existing Identity Provider**: The business uses **Microsoft Active Directory** (AD) for login purposes.
 - **SSO (Single Sign-On)**: Staff can use their AD credentials to access AWS through **Identity Federation**.
 
@@ -50,6 +56,8 @@ IAM roles are essential when integrating AWS with **existing corporate environme
 - **Scaling**: Roles are easier to manage and scale compared to individual IAM users, especially in environments with more than 5,000 staff.
 
 ## Web Identity Federation: Mobile Applications
+
+![alt text](image-14.png)
 
 Roles are also crucial for large-scale mobile applications that need to interact with AWS resources, such as a ride-sharing app with millions of users.
 
@@ -67,6 +75,8 @@ Roles are also crucial for large-scale mobile applications that need to interact
 - **User Experience**: Customers use existing social accounts, improving user experience.
 
 ## Cross-Account Access
+
+![alt text](image-15.png)
 
 IAM roles simplify **cross-account access**, especially in multi-account setups or when collaborating with external partners.
 
