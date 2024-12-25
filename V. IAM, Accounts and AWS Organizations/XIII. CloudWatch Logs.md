@@ -1,7 +1,5 @@
 # Learn Cantrill.io AWS SA C03: Introduction to CloudWatch Logs
 
-![alt text](image-29.png)
-
 ## Overview
 
 In this lesson, we cover the theory and architecture of **CloudWatch Logs**. Previously, metrics in CloudWatch were discussed, and now, we turn to logs because they are essential for using services like **CloudTrail**. This lesson focuses on understanding the **CloudWatch Logs** architecture, which is necessary as CloudTrail logs will use it as a destination.
@@ -44,6 +42,8 @@ AWS services can store data directly within **CloudWatch Logs**, and security is
 - **Alarms** can then be configured based on this metric to trigger actions or notify administrators.
 
 ## CloudWatch Logs Architecture
+
+![alt text](image-29.png)
 
 ### Regional Service Consideration
 
