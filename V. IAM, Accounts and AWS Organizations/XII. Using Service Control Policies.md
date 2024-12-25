@@ -41,7 +41,8 @@ Before starting this demo, you should have:
 
 1. Navigate to the **S3 console**.
 2. Create a bucket named "catpics" followed by a unique random number.
-3. Upload a sample image (e.g., samson.jpeg) to the bucket.
+3. [Download the cat picture](https://learn-cantrill-labs.s3.amazonaws.com/awscoursedemos/0034-aws-orgscp/samson.JPG).
+4. Upload the downloaded **samson.JPG** image to the bucket.
 
 ### 4. Understanding Permissions
 
@@ -57,16 +58,30 @@ Before starting this demo, you should have:
 
 ### 6. Creating a Custom SCP
 
-1. Download and open the `DenyS3.json` file (provided in the course).
-2. This SCP contains:
+1. Use the following JSON policy code to create the custom SCP:
 
-   - **Allow Statement**: Grants access to all AWS services.
-   - **Deny Statement**: Explicitly denies all `S3:*` actions.
+   ```json
+   {
+     "Version": "2012-10-17",
+     "Statement": [
+       {
+         "Effect": "Allow",
+         "Action": "*",
+         "Resource": "*"
+       },
+       {
+         "Effect": "Deny",
+         "Action": "s3:*",
+         "Resource": "*"
+       }
+     ]
+   }
+   ```
 
-3. Go to the **Policies** section in AWS Organizations.
-4. Create a new policy:
+2. Go to the **Policies** section in AWS Organizations.
+3. Create a new policy:
    - Name it **"Allow All Except S3"**.
-   - Copy and paste the policy content from `DenyS3.json`.
+   - Copy and paste the policy content above.
 
 ### 7. Attaching the SCP to the Production OU
 
