@@ -42,20 +42,20 @@ This lesson covers S3 security concepts, focusing on **bucket policies**, **acce
 
 ### Policy Components
 
-    ```json
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
     {
-      "Version": "2012-10-17",
-      "Statement": [
-        {
-          "Sid": "PublicRead",
-          "Effect": "Allow",
-          "Principal": "*",
-          "Action": ["s3:GetObject"],
-          "Resource": ["arn:aws:s3:::secretcatproject/*"]
-        }
-      ]
+      "Sid": "PublicRead",
+      "Effect": "Allow",
+      "Principal": "*",
+      "Action": ["s3:GetObject"],
+      "Resource": ["arn:aws:s3:::secretcatproject/*"]
     }
-    ```
+  ]
+}
+```
 
 - **Components**:
 
