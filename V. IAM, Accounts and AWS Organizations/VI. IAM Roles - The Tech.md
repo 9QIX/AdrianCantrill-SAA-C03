@@ -12,7 +12,7 @@ An **IAM role** is one type of identity that exists within an AWS account. The o
 
 ### Key Differences between IAM Users and IAM Roles
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 - **IAM Users**: Generally represent a single principal (like one person or application).
 - **IAM Roles**: Are designed for situations where multiple or an unknown number of principals may need access.
@@ -46,7 +46,7 @@ Temporary credentials behave similarly to long-term **access keys**, but are onl
 
 ## Policies Associated with IAM Roles
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 IAM roles have two primary policies attached to them:
 

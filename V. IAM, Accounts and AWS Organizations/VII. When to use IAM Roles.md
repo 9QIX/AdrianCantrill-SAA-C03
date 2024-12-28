@@ -4,7 +4,7 @@ In this lesson, we’ll explore specific scenarios where IAM roles are useful wi
 
 ## AWS Services Needing Permissions: Lambda Example
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 One of the most common uses of IAM roles is with AWS services themselves, such as **AWS Lambda**.
 
@@ -25,7 +25,7 @@ One of the most common uses of IAM roles is with AWS services themselves, such a
 
 ## Break-Glass Situations: Emergency Access
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 Another scenario is handling emergency situations where elevated permissions are temporarily needed.
 
@@ -45,7 +45,7 @@ IAM roles are essential when integrating AWS with **existing corporate environme
 
 ### Scenario: Active Directory Integration
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 - **Existing Identity Provider**: The business uses **Microsoft Active Directory** (AD) for login purposes.
 - **SSO (Single Sign-On)**: Staff can use their AD credentials to access AWS through **Identity Federation**.
@@ -57,7 +57,7 @@ IAM roles are essential when integrating AWS with **existing corporate environme
 
 ## Web Identity Federation: Mobile Applications
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 Roles are also crucial for large-scale mobile applications that need to interact with AWS resources, such as a ride-sharing app with millions of users.
 
@@ -76,7 +76,7 @@ Roles are also crucial for large-scale mobile applications that need to interact
 
 ## Cross-Account Access
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 IAM roles simplify **cross-account access**, especially in multi-account setups or when collaborating with external partners.
 

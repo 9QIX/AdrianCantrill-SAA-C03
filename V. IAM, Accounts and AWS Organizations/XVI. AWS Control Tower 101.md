@@ -8,7 +8,7 @@ AWS Control Tower is a comprehensive tool designed for setting up and managing m
 
 ### Overview
 
-![alt text](image-33.png)
+![alt text](./Images/image-33.png)
 
 Control Tower is essentially an evolution of AWS Organizations, enhancing it with automation, intelligence, and additional features to simplify multi-account management. Key components include:
 
@@ -18,8 +18,6 @@ Control Tower is essentially an evolution of AWS Organizations, enhancing it wit
 - **Dashboard**: A single-page overview of the organization.
 
 ## Control Tower Components
-
-![alt text](image-34.png)
 
 ### 1. Landing Zone
 

@@ -8,8 +8,8 @@
 
 ### 1. Setting Up an AWS Organization
 
-![alt text](image-19.png)
-![alt text](image-20.png)
+![alt text](./Images/image-19.png)
+![alt text](./Images/image-20.png)
 
 An AWS organization starts with a **standard AWS account** that you use to create the organization. This initial account becomes the **management account** (formerly called the "master account"):
 
@@ -18,7 +18,7 @@ An AWS organization starts with a **standard AWS account** that you use to creat
 
 ### 2. Organizational Structure
 
-![alt text](image-21.png)
+![alt text](./Images/image-21.png)
 
 AWS Organizations enables you to group and structure accounts hierarchically to represent various business units, functions, or stages of development. The structure is organized as an **inverted tree** with the following components:
 
@@ -29,7 +29,7 @@ AWS Organizations enables you to group and structure accounts hierarchically to 
 
 ### 3. Consolidated Billing
 
-![alt text](image-22.png)
+![alt text](./Images/image-22.png)
 
 One of the primary features of AWS Organizations is **consolidated billing**, which simplifies the financial management of multiple accounts:
 
@@ -49,7 +49,7 @@ SCPs are a crucial security feature and will be covered in further detail in ded
 
 ### Inviting and Creating Accounts
 
-![alt text](image-23.png)
+![alt text](./Images/image-23.png)
 
 1. **Inviting Existing Accounts**:
    - You can invite standard AWS accounts to join your organization. These accounts must accept the invitation to become member accounts.
@@ -69,7 +69,7 @@ With AWS Organizations, it is recommended to avoid creating individual IAM users
 
 ## Example Workflow: Creating an AWS Organization Structure
 
-![alt text](image-24.png)
+![alt text](./Images/image-24.png)
 
 In this example, the initial setup involves three accounts:
 

@@ -20,7 +20,7 @@ IAM policy documents consist of **statements**, and each statement grants or den
 
 ### Statement Structure
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 A policy statement is composed of the following elements:
 
@@ -38,7 +38,7 @@ The **effect** determines the behavior of the policy:
 
 ## Policy Evaluation Order
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 When an identity attempts to perform an action on an AWS resource, AWS evaluates all the policies attached to that identity. The evaluation follows this order of priority:
 
@@ -60,7 +60,7 @@ An identity can have multiple policies attached, either directly (user policy) o
 
 ## Inline vs. Managed Policies
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 There are two main types of IAM policies: **Inline Policies** and **Managed Policies**.
 
@@ -72,7 +72,7 @@ There are two main types of IAM policies: **Inline Policies** and **Managed Poli
 
 ### Managed Policies
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 **Managed policies** are reusable policy documents that can be attached to multiple identities. They are highly scalable and lower in management overhead.
 

@@ -2,7 +2,7 @@
 
 ## Introduction to CloudTrail
 
-![alt text](image-30.png)
+![alt text](./Images/image-30.png)
 
 **CloudTrail** is an AWS service that logs API actions and account activities, creating a detailed record of operations performed on AWS resources. Key use cases include monitoring activities such as:
 
@@ -14,7 +14,7 @@ These logs help with compliance, operational troubleshooting, and security monit
 
 ## Key Features of CloudTrail
 
-![alt text](image-31.png)
+![alt text](./Images/image-31.png)
 
 ### 1. **CloudTrail Event History**
 
@@ -66,7 +66,7 @@ A **trail** provides extended capabilities to CloudTrail, such as persistent sto
 
 ## Important Considerations
 
-![alt text](image-32.png)
+![alt text](./Images/image-32.png)
 
 ### **Regional vs. Global Logging**
 

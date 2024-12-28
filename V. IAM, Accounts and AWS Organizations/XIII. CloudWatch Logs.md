@@ -43,7 +43,7 @@ AWS services can store data directly within **CloudWatch Logs**, and security is
 
 ## CloudWatch Logs Architecture
 
-![alt text](image-29.png)
+![alt text](./Images/image-29.png)
 
 ### Regional Service Consideration
 

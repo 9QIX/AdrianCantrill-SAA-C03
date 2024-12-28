@@ -21,7 +21,7 @@ IAM (Identity and Access Management) Users are one of the core identity types av
 
 ## Authentication Process
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 1. **Principle**: A person or application attempts to access AWS resources.
 2. **Authentication**: The principle provides credentials (username/password or access keys) to prove its identity.
@@ -30,7 +30,7 @@ IAM (Identity and Access Management) Users are one of the core identity types av
 
 ## ARNs (Amazon Resource Names)
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 ARNs uniquely identify resources in AWS, allowing for unambiguous interaction through the CLI or API.
 
@@ -85,7 +85,7 @@ ARNs are often used in IAM policies to specify resources that a policy applies t
 
 ## Exam Power-Up
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 - Remember the **5,000 user limit**: If an exam question discusses more than 5,000 users or an application with millions of users, creating individual IAM users is not the correct answer. Instead, look for answers involving Federation or IAM roles.
 

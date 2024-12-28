@@ -6,7 +6,7 @@ Service Control Policies (SCPs) are a feature within **AWS Organizations** used 
 
 ## AWS Organization Setup
 
-![alt text](image-25.png)
+![alt text](./Images/image-25.png)
 
 - **Organization**: Example organization is named "Animals for Life."
 - **Accounts**:
@@ -54,7 +54,7 @@ The **Management Account** is special:
 
 ## SCP Architecture Models: Deny List vs. Allow List
 
-![alt text](image-26.png)
+![alt text](./Images/image-26.png)
 
 ### Deny List Model (Default)
 
@@ -64,7 +64,7 @@ The **Management Account** is special:
 
 ### Allow List Model
 
-![alt text](image-27.png)
+![alt text](./Images/image-27.png)
 
 - **Allow List Setup**: Requires removing `FullAWSAccess` and explicitly adding allowed services.
 - **Use Case**: Better for highly restrictive environments, though more administrative effort is needed.
@@ -76,7 +76,7 @@ Generally, the **Deny List architecture** is preferred due to lower maintenance.
 
 ## Visual Representation of SCP Effect on Permissions
 
-![alt text](image-28.png)
+![alt text](./Images/image-28.png)
 
 - **Identity Policies vs. SCPs**:
   - Only permissions present in both identity policies and SCPs are effective within an AWS account.

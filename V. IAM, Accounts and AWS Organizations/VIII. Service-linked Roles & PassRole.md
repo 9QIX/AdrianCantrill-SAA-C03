@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 A **Service-Linked Role** is a specialized IAM role directly associated with a specific AWS service. These roles have predefined permissions that allow the service to interact with other AWS services on behalf of the user. The creation, modification, and deletion of these roles are managed by the service itself and may vary depending on the specific service.
 
@@ -18,7 +18,7 @@ More details can be found in the [official AWS documentation](https://docs.aws.a
 
 ### Creation and Management of Service-Linked Roles
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 - **Automatic Creation**: AWS services may automatically create a service-linked role when needed.
 - **Manual Creation**: You might be allowed to create a service-linked role during the setup of a service or manually through IAM.
@@ -48,7 +48,7 @@ A **Service-Linked Role** can only be deleted once it is no longer in use by its
 
 ## Role Separation
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 **Role Separation** refers to the practice of separating responsibilities across different job roles. For example, one team might be responsible for creating IAM roles, while another team may only have permission to use the roles.
 
