@@ -6,7 +6,7 @@ S3 Access Points is a feature of Amazon S3 that enhances the manageability of S3
 
 ## Why Use S3 Access Points?
 
-![alt text](image-1.png)
+![alt text](./Images/image-47.png)
 
 - **Simplifies access management**: Instead of maintaining a single bucket policy, you can create multiple access points, each with its own permissions.
 - **Enhances security**: Access points can restrict access to specific sources such as Virtual Private Cloud (VPC) endpoints.
@@ -29,7 +29,7 @@ You can create an S3 Access Point using:
 
 ## Example Scenario
 
-![alt text](image.png)
+![alt text](./Images/image-48.png)
 
 ### **Scenario: Animal Health Data Storage**
 

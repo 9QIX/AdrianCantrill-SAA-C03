@@ -22,7 +22,7 @@ Object Lock manages object retention in two ways:
 
 ### 1. Retention Period
 
-![alt text](image-45.png)
+![alt text](./Images/image-45.png)
 
 Retention periods define a specific duration (days/years) for which an object version remains immutable.
 
@@ -46,7 +46,7 @@ There are two distinct modes for setting retention periods:
 
 ### 2. Legal Hold
 
-![alt text](image-46.png)
+![alt text](./Images/image-46.png)
 
 Legal Hold is a **binary** setting (on/off) that prevents deletion or modification of an object version. Unlike retention periods, it has no expiration date.
 
@@ -58,7 +58,7 @@ Legal Hold is a **binary** setting (on/off) that prevents deletion or modificati
 
 ## How Object Lock Works
 
-![alt text](image-44.png)
+![alt text](./Images/image-44.png)
 
 ### Legal Hold Process
 

@@ -20,7 +20,7 @@ The AWS Key Management Service (KMS) is a foundational encryption service in AWS
 
 ### Cryptographic Operations
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 - KMS performs cryptographic operations such as encryption and decryption.
 - Keys never leave KMS, ensuring security.
@@ -40,7 +40,7 @@ The AWS Key Management Service (KMS) is a foundational encryption service in AWS
 
 ## Data Encryption Key (DEK) Workflow
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 - **Generate Data Keys**:
   - Created using the `GenerateDataKey` operation.
@@ -88,7 +88,7 @@ The AWS Key Management Service (KMS) is a foundational encryption service in AWS
 
 ### Key Policies
 
-![alt text](image-19.png)
+![alt text](./Images/image-19.png)
 
 - **Foundation of KMS Security**:
   - Every KMS key has a key policy.

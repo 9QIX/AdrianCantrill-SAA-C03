@@ -4,7 +4,7 @@ This document summarizes the key points from the video on optimizing S3 performa
 
 ## Scenario Overview: Animals for Life
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 - **Context**: Distributed organization with:
   - Head office in Brisbane.
@@ -16,7 +16,7 @@ This document summarizes the key points from the video on optimizing S3 performa
 
 ### Characteristics:
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 - **Single-Stream Upload**: Data is uploaded as a single blob using the `PutObject` API.
 - **Limitations**:
@@ -25,7 +25,7 @@ This document summarizes the key points from the video on optimizing S3 performa
 
 ## Multi-Part Upload
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 ### Overview:
 
@@ -45,14 +45,14 @@ This document summarizes the key points from the video on optimizing S3 performa
 
 ### Challenges with Default Global Transfers:
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 - Public internet routing is unpredictable, often indirect, and slower due to multiple hops.
 - Inefficiencies worsen with increasing distance between the upload source and S3 bucket.
 
 ### How Transfer Acceleration Works:
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 1. **AWS Edge Locations**:
    - Closest edge location acts as the entry point for uploads.

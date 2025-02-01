@@ -12,7 +12,7 @@ This lesson covers S3 security concepts, focusing on **bucket policies**, **acce
 
 ## Bucket Policies
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ### Definition and Purpose
 
@@ -23,7 +23,7 @@ This lesson covers S3 security concepts, focusing on **bucket policies**, **acce
 
 ### Key Features
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 1. **Cross-Account Access**:
    - Bucket policies allow access to identities from different AWS accounts.
@@ -167,7 +167,7 @@ This lesson covers S3 security concepts, focusing on **bucket policies**, **acce
 
 ## Access Control Lists (ACLs)
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 ### Overview
 
@@ -176,7 +176,7 @@ This lesson covers S3 security concepts, focusing on **bucket policies**, **acce
 
 ### Features and Limitations
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 - Permissions: `READ`, `WRITE`, `READ_ACP`, `WRITE_ACP`, and `FULL_CONTROL`.
 - Cannot define conditions (e.g., IP restrictions).
@@ -188,7 +188,7 @@ This lesson covers S3 security concepts, focusing on **bucket policies**, **acce
 
 ## Block Public Access Settings
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 ### Purpose
 
@@ -213,7 +213,7 @@ This lesson covers S3 security concepts, focusing on **bucket policies**, **acce
 
 ## Best Practices and Exam Tips
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 ### Identity vs. Resource Policies
 

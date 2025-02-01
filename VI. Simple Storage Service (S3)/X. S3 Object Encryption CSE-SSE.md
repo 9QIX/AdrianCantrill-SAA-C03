@@ -4,7 +4,7 @@ This summary provides a detailed breakdown of the Learn Cantrill.io AWS SA-C03 l
 
 ## Introduction to S3 Encryption
 
-![alt text](image-20.png)
+![alt text](./Images/image-20.png)
 
 - **S3 Encryption Scope**:
 
@@ -53,7 +53,7 @@ AWS performs encryption after data reaches S3. Several types of SSE offer differ
 
 ### 1. SSE-C (Server-Side Encryption with Customer-Provided Keys)
 
-![alt text](image-21.png)
+![alt text](./Images/image-21.png)
 
 - **Process**:
 
@@ -76,7 +76,7 @@ AWS performs encryption after data reaches S3. Several types of SSE offer differ
 
 ### 2. SSE-S3 (Server-Side Encryption with Amazon S3 Managed Keys)
 
-![alt text](image-22.png)
+![alt text](./Images/image-22.png)
 
 - **Process**:
 
@@ -98,7 +98,7 @@ AWS performs encryption after data reaches S3. Several types of SSE offer differ
 
 ### 3. SSE-KMS (Server-Side Encryption with AWS Key Management Service Keys)
 
-![alt text](image-23.png)
+![alt text](./Images/image-23.png)
 
 - **Process**:
 
@@ -121,7 +121,7 @@ AWS performs encryption after data reaches S3. Several types of SSE offer differ
 
 ## Comparison of SSE Types
 
-![alt text](image-24.png)
+![alt text](./Images/image-24.png)
 
 | Feature                | SSE-C                        | SSE-S3                     | SSE-KMS                            |
 | ---------------------- | ---------------------------- | -------------------------- | ---------------------------------- |

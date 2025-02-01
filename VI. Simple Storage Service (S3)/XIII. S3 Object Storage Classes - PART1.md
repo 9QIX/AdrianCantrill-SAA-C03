@@ -4,7 +4,7 @@ This document summarizes the key points from a lesson on S3 Object Storage Class
 
 ## 1. S3 Standard
 
-![alt text](image-27.png)
+![alt text](./Images/image-27.png)
 
 ### Overview
 
@@ -28,7 +28,7 @@ This document summarizes the key points from a lesson on S3 Object Storage Class
 
 ## 2. S3 Standard Infrequent Access (IA)
 
-![alt text](image-28.png)
+![alt text](./Images/image-28.png)
 
 ### Overview
 
@@ -55,7 +55,7 @@ This document summarizes the key points from a lesson on S3 Object Storage Class
 
 ## 3. S3 One Zone Infrequent Access (One Zone IA)
 
-![alt text](image-29.png)
+![alt text](./Images/image-29.png)
 
 ### Overview
 

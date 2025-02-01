@@ -8,7 +8,7 @@ Amazon S3 Bucket Keys are designed to reduce the cost and enhance the scalabilit
 
 ### Standard KMS Encryption Workflow
 
-![alt text](image-25.png)
+![alt text](./Images/image-25.png)
 
 - **Architecture Overview**:
 
@@ -28,7 +28,7 @@ Amazon S3 Bucket Keys are designed to reduce the cost and enhance the scalabilit
 
 ### Bucket Keys Workflow
 
-![alt text](image-26.png)
+![alt text](./Images/image-26.png)
 
 - **Improved Architecture**:
 

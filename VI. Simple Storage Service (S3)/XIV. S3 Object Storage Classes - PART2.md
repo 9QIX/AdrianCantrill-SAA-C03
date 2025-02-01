@@ -4,7 +4,7 @@ This summary details the key points about AWS S3 storage classes as discussed in
 
 ## **1. S3-Glacier Instant Retrieval**
 
-![alt text](image-30.png)
+![alt text](./Images/image-30.png)
 
 - **Overview**: Similar to S3-Standard-Infrequent Access (IA) but offers cheaper storage costs and more expensive retrieval costs.
 - **Use Case**: Data that needs instant access but is rarely accessed (e.g., once per quarter).
@@ -15,7 +15,7 @@ This summary details the key points about AWS S3 storage classes as discussed in
 
 ## **2. S3-Glacier Flexible Retrieval**
 
-![alt text](image-31.png)
+![alt text](./Images/image-31.png)
 
 - **Overview**: Formerly S3-Glacier, this class provides cost-effective archival storage with retrieval options.
 - **Use Case**: Archival data requiring retrieval within hours, such as yearly access.
@@ -34,7 +34,7 @@ This summary details the key points about AWS S3 storage classes as discussed in
 
 ## **3. S3-Glacier Deep Archive**
 
-![alt text](image-32.png)
+![alt text](./Images/image-32.png)
 
 - **Overview**: The cheapest S3 storage class, designed for long-term archival.
 - **Use Case**: Rarely accessed data (e.g., legal or regulatory archives) where days of retrieval latency is acceptable.
@@ -48,7 +48,7 @@ This summary details the key points about AWS S3 storage classes as discussed in
 
 ## **4. Intelligent Tiering**
 
-![alt text](image-33.png)
+![alt text](./Images/image-33.png)
 
 - **Overview**: A dynamic storage class that automatically transitions data between multiple tiers based on access patterns.
 - **Use Case**: Long-lived data with unpredictable or changing access patterns.

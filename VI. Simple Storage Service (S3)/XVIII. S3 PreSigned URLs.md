@@ -13,7 +13,7 @@ Pre-Signed URLs are secure, time-limited URLs generated using AWS credentials, a
 
 ### **Scenario 1: Private S3 Bucket**
 
-![alt text](image-36.png)
+![alt text](./Images/image-36.png)
 
 - **Challenge**: A private S3 bucket only allows access via authenticated users.
 - **Problem**: Sharing direct credentials or making the bucket public is not secure.
@@ -21,7 +21,7 @@ Pre-Signed URLs are secure, time-limited URLs generated using AWS credentials, a
 
 ### **Scenario 2: Application Architecture**
 
-![alt text](image-37.png)
+![alt text](./Images/image-37.png)
 
 - **Setup**: A video processing application stores large video files in a private S3 bucket.
 - **Challenge**: Users need access to videos without requiring AWS credentials or making the bucket public.
@@ -32,7 +32,7 @@ Pre-Signed URLs are secure, time-limited URLs generated using AWS credentials, a
 
 ### **Scenario 3: Serverless Architectures**
 
-![alt text](image-38.png)
+![alt text](./Images/image-38.png)
 
 - Pre-Signed URLs are frequently used in serverless environments to:
   - Allow controlled access to private S3 buckets.

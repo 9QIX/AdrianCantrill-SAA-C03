@@ -11,7 +11,7 @@ Both replication types can occur between buckets in the **same AWS account** or 
 
 ## Key Components of S3 Replication
 
-![alt text](image-35.png)
+![alt text](./Images/image-35.png)
 
 1. **Replication Configuration:**
    - Applied to the source bucket.

@@ -12,21 +12,21 @@ This lesson covers two essential Amazon S3 features: **Object Versioning** and *
    - Default state: **Disabled**.
 
 2. **State Changes**:
-   ![alt text](image-8.png)
+   ![alt text](./Images/image-8.png)
 
    - Disabled → Enabled: Once enabled, it cannot be reverted to disabled.
    - Enabled → Suspended: Can be toggled back to enabled.
    - **Important**: Enabled buckets cannot return to a disabled state.
 
 3. **Object Identification**:
-   ![alt text](image-9.png)
+   ![alt text](./Images/image-9.png)
 
    - Without versioning: Objects are identified solely by their unique **object key**.
    - With versioning: Objects also receive a unique **version ID**.
 
 ### How Versioning Works
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 - **Modification**:
 
@@ -57,7 +57,7 @@ This lesson covers two essential Amazon S3 features: **Object Versioning** and *
 
 ## MFA Delete
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 ### Overview
 

@@ -31,7 +31,7 @@ S3 Lifecycle Configuration enables automated management of objects in S3 buckets
 
 ## Transitioning Between Storage Classes
 
-![alt text](image-34.png)
+![alt text](./Images/image-34.png)
 
 ### **Storage Classes and Transition Path**
 

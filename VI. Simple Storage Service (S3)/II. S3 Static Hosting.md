@@ -6,7 +6,7 @@ S3 static website hosting is a feature of AWS S3 that allows buckets to serve st
 
 ## API Access vs. Static Website Hosting
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 - **API Access**: AWS S3 typically interacts via APIs (e.g., `GetObject`), which is secure and flexible.
 - **Static Website Hosting**: Enables S3 buckets to serve static files (e.g., HTML) directly via HTTP, making it accessible to web browsers without API interaction.
@@ -25,7 +25,7 @@ S3 static website hosting is a feature of AWS S3 that allows buckets to serve st
 
 ### Hosting Static Websites
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 Ideal for blogs and similar static content sites, leveraging S3’s efficiency and scalability.
 

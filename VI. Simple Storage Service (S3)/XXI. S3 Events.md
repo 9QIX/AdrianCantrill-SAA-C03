@@ -10,7 +10,7 @@ When enabled, event notifications are generated when predefined actions occur wi
 
 ### Supported Event Types
 
-![alt text](image-42.png)
+![alt text](./Images/image-42.png)
 
 S3 event notifications support multiple types of events, including:
 
@@ -41,7 +41,7 @@ S3 event notifications support multiple types of events, including:
 
 ## Architectural Overview
 
-![alt text](image-41.png)
+![alt text](./Images/image-41.png)
 
 1. **S3 Bucket Configuration**
 

@@ -6,7 +6,7 @@ S3 Access Logs provide visibility into requests made to an S3 bucket. This featu
 
 ## Architecture
 
-![alt text](image-43.png)
+![alt text](./Images/image-43.png)
 
 ### Components
 

@@ -10,7 +10,7 @@ S3 Select and Glacier Select allow querying and retrieving **only the required p
 
 ### **Key Benefits**
 
-![alt text](image-40.png)
+![alt text](./Images/image-40.png)
 
 - **Reduces data transfer costs** by retrieving only the necessary data.
 - **Improves performance** by filtering data directly within S3/Glacier instead of on the client-side.
@@ -48,7 +48,7 @@ Using **S3 Select and Glacier Select**, filtering happens **before transfer**, r
 
 ## **Visual Representation**
 
-![alt text](image-39.png)
+![alt text](./Images/image-39.png)
 
 | Without S3 Select/Glacier Select                  | With S3 Select/Glacier Select                     |
 | ------------------------------------------------- | ------------------------------------------------- |
