@@ -175,6 +175,162 @@ AWS provides different VPC sizes, ranging from micro to extra-large:
 - The plan ensures **non-overlapping VPCs** across accounts and regions.
 - Future-proofing by reserving extra capacity.
 
+## Animals4Life IP Addressing Plan
+
+- Network: The 10.X network number
+- Usage Level: Always "Level 1" in this document
+- Region: (USREGION1, USREGION2, USREGION3, EUROPE, AUSTRALIA)
+- Tier: (GENERAL, PROD, DEV, RESERVED)
+- VPC: The VPC number (1-4)
+
+## Common and Avoid Ranges (10.1 - 10.15)
+
+| Network | Usage Level | Usage  | Region | Tier | VPC |
+| ------- | ----------- | ------ | ------ | ---- | --- |
+| 10.1    | Level 1     | COMMON | -      | -    | -   |
+| 10.2    | Level 1     | COMMON | -      | -    | -   |
+| 10.3    | Level 1     | COMMON | -      | -    | -   |
+| 10.4    | Level 1     | COMMON | -      | -    | -   |
+| 10.5    | Level 1     | RANGES | -      | -    | -   |
+| 10.6    | Level 1     | RANGES | -      | -    | -   |
+| 10.7    | Level 1     | AVOID  | -      | -    | -   |
+| 10.8    | Level 1     | AVOID  | -      | -    | -   |
+| 10.9    | Level 1     | AVOID  | -      | -    | -   |
+| 10.10   | Level 1     | AVOID  | -      | -    | -   |
+| 10.11   | Level 1     | AVOID  | -      | -    | -   |
+| 10.12   | Level 1     | AVOID  | -      | -    | -   |
+| 10.13   | Level 1     | AVOID  | -      | -    | -   |
+| 10.14   | Level 1     | AVOID  | -      | -    | -   |
+| 10.15   | Level 1     | AVOID  | -      | -    | -   |
+
+## Main Infrastructure
+
+| Network | Usage Level | Region    | Tier     | Account | VPC  |
+| ------- | ----------- | --------- | -------- | ------- | ---- |
+| 10.16   | Level 1     | USREGION1 | GENERAL  | ACC     | VPC1 |
+| 10.17   | Level 1     | USREGION1 | GENERAL  | ACC     | VPC2 |
+| 10.18   | Level 1     | USREGION1 | GENERAL  | ACC     | VPC3 |
+| 10.19   | Level 1     | USREGION1 | GENERAL  | ACC     | VPC4 |
+| 10.20   | Level 1     | USREGION1 | PROD     | ACC     | VPC1 |
+| 10.21   | Level 1     | USREGION1 | PROD     | ACC     | VPC2 |
+| 10.22   | Level 1     | USREGION1 | PROD     | ACC     | VPC3 |
+| 10.23   | Level 1     | USREGION1 | PROD     | ACC     | VPC4 |
+| 10.24   | Level 1     | USREGION1 | DEV      | ACC     | VPC1 |
+| 10.25   | Level 1     | USREGION1 | DEV      | ACC     | VPC2 |
+| 10.26   | Level 1     | USREGION1 | DEV      | ACC     | VPC3 |
+| 10.27   | Level 1     | USREGION1 | DEV      | ACC     | VPC4 |
+| 10.28   | Level 1     | USREGION1 | RESERVED | ACC     | VPC1 |
+| 10.29   | Level 1     | USREGION1 | RESERVED | ACC     | VPC2 |
+| 10.30   | Level 1     | USREGION1 | RESERVED | ACC     | VPC3 |
+| 10.31   | Level 1     | USREGION1 | RESERVED | ACC     | VPC4 |
+| 10.32   | Level 1     | USREGION2 | GENERAL  | ACC     | VPC1 |
+| 10.33   | Level 1     | USREGION2 | GENERAL  | ACC     | VPC2 |
+| 10.34   | Level 1     | USREGION2 | GENERAL  | ACC     | VPC3 |
+| 10.35   | Level 1     | USREGION2 | GENERAL  | ACC     | VPC4 |
+| 10.36   | Level 1     | USREGION2 | PROD     | ACC     | VPC1 |
+| 10.37   | Level 1     | USREGION2 | PROD     | ACC     | VPC2 |
+| 10.38   | Level 1     | USREGION2 | PROD     | ACC     | VPC3 |
+| 10.39   | Level 1     | USREGION2 | PROD     | ACC     | VPC4 |
+| 10.40   | Level 1     | USREGION2 | DEV      | ACC     | VPC1 |
+| 10.41   | Level 1     | USREGION2 | DEV      | ACC     | VPC2 |
+| 10.42   | Level 1     | USREGION2 | DEV      | ACC     | VPC3 |
+| 10.43   | Level 1     | USREGION2 | DEV      | ACC     | VPC4 |
+| 10.44   | Level 1     | USREGION2 | RESERVED | ACC     | VPC1 |
+| 10.45   | Level 1     | USREGION2 | RESERVED | ACC     | VPC2 |
+| 10.46   | Level 1     | USREGION2 | RESERVED | ACC     | VPC3 |
+| 10.47   | Level 1     | USREGION2 | RESERVED | ACC     | VPC4 |
+| 10.48   | Level 1     | USREGION3 | GENERAL  | ACC     | VPC1 |
+| 10.49   | Level 1     | USREGION3 | GENERAL  | ACC     | VPC2 |
+| 10.50   | Level 1     | USREGION3 | GENERAL  | ACC     | VPC3 |
+| 10.51   | Level 1     | USREGION3 | GENERAL  | ACC     | VPC4 |
+| 10.52   | Level 1     | USREGION3 | PROD     | ACC     | VPC1 |
+| 10.53   | Level 1     | USREGION3 | PROD     | ACC     | VPC2 |
+| 10.54   | Level 1     | USREGION3 | PROD     | ACC     | VPC3 |
+| 10.55   | Level 1     | USREGION3 | PROD     | ACC     | VPC4 |
+| 10.56   | Level 1     | USREGION3 | DEV      | ACC     | VPC1 |
+| 10.57   | Level 1     | USREGION3 | DEV      | ACC     | VPC2 |
+| 10.58   | Level 1     | USREGION3 | DEV      | ACC     | VPC3 |
+| 10.59   | Level 1     | USREGION3 | DEV      | ACC     | VPC4 |
+| 10.60   | Level 1     | USREGION3 | RESERVED | ACC     | VPC1 |
+| 10.61   | Level 1     | USREGION3 | RESERVED | ACC     | VPC2 |
+| 10.62   | Level 1     | USREGION3 | RESERVED | ACC     | VPC3 |
+| 10.63   | Level 1     | USREGION3 | RESERVED | ACC     | VPC4 |
+| 10.64   | Level 1     | EUROPE    | GENERAL  | ACC     | VPC1 |
+| 10.65   | Level 1     | EUROPE    | GENERAL  | ACC     | VPC2 |
+| 10.66   | Level 1     | EUROPE    | GENERAL  | ACC     | VPC3 |
+| 10.67   | Level 1     | EUROPE    | GENERAL  | ACC     | VPC4 |
+| 10.68   | Level 1     | EUROPE    | PROD     | ACC     | VPC1 |
+| 10.69   | Level 1     | EUROPE    | PROD     | ACC     | VPC2 |
+| 10.70   | Level 1     | EUROPE    | PROD     | ACC     | VPC3 |
+| 10.71   | Level 1     | EUROPE    | PROD     | ACC     | VPC4 |
+| 10.72   | Level 1     | EUROPE    | DEV      | ACC     | VPC1 |
+| 10.73   | Level 1     | EUROPE    | DEV      | ACC     | VPC2 |
+| 10.74   | Level 1     | EUROPE    | DEV      | ACC     | VPC3 |
+| 10.75   | Level 1     | EUROPE    | DEV      | ACC     | VPC4 |
+| 10.76   | Level 1     | EUROPE    | RESERVED | ACC     | VPC1 |
+| 10.77   | Level 1     | EUROPE    | RESERVED | ACC     | VPC2 |
+| 10.78   | Level 1     | EUROPE    | RESERVED | ACC     | VPC3 |
+| 10.79   | Level 1     | EUROPE    | RESERVED | ACC     | VPC4 |
+| 10.80   | Level 1     | AUSTRALIA | GENERAL  | ACC     | VPC1 |
+| 10.81   | Level 1     | AUSTRALIA | GENERAL  | ACC     | VPC2 |
+| 10.82   | Level 1     | AUSTRALIA | GENERAL  | ACC     | VPC3 |
+| 10.83   | Level 1     | AUSTRALIA | GENERAL  | ACC     | VPC4 |
+| 10.84   | Level 1     | AUSTRALIA | PROD     | ACC     | VPC1 |
+| 10.85   | Level 1     | AUSTRALIA | PROD     | ACC     | VPC2 |
+| 10.86   | Level 1     | AUSTRALIA | PROD     | ACC     | VPC3 |
+| 10.87   | Level 1     | AUSTRALIA | PROD     | ACC     | VPC4 |
+| 10.88   | Level 1     | AUSTRALIA | DEV      | ACC     | VPC1 |
+| 10.89   | Level 1     | AUSTRALIA | DEV      | ACC     | VPC2 |
+| 10.90   | Level 1     | AUSTRALIA | DEV      | ACC     | VPC3 |
+| 10.91   | Level 1     | AUSTRALIA | DEV      | ACC     | VPC4 |
+| 10.92   | Level 1     | AUSTRALIA | RESERVED | ACC     | VPC1 |
+| 10.93   | Level 1     | AUSTRALIA | RESERVED | ACC     | VPC2 |
+| 10.94   | Level 1     | AUSTRALIA | RESERVED | ACC     | VPC3 |
+| 10.95   | Level 1     | AUSTRALIA | RESERVED | ACC     | VPC4 |
+
+## Unused Animals4Life Ranges
+
+| Network | Usage Level | Region | Tier | Account | VPC |
+| ------- | ----------- | ------ | ---- | ------- | --- |
+| 10.96   | Level 1     | UNUSED | -    | -       | -   |
+| 10.97   | Level 1     | UNUSED | -    | -       | -   |
+| 10.98   | Level 1     | UNUSED | -    | -       | -   |
+| 10.99   | Level 1     | UNUSED | -    | -       | -   |
+| 10.100  | Level 1     | UNUSED | -    | -       | -   |
+| 10.101  | Level 1     | UNUSED | -    | -       | -   |
+| 10.102  | Level 1     | UNUSED | -    | -       | -   |
+| 10.103  | Level 1     | UNUSED | -    | -       | -   |
+| 10.104  | Level 1     | UNUSED | -    | -       | -   |
+| 10.105  | Level 1     | UNUSED | -    | -       | -   |
+| 10.106  | Level 1     | UNUSED | -    | -       | -   |
+| 10.107  | Level 1     | UNUSED | -    | -       | -   |
+| 10.108  | Level 1     | UNUSED | -    | -       | -   |
+| 10.109  | Level 1     | UNUSED | -    | -       | -   |
+| 10.110  | Level 1     | UNUSED | -    | -       | -   |
+| 10.111  | Level 1     | UNUSED | -    | -       | -   |
+| 10.112  | Level 1     | UNUSED | -    | -       | -   |
+| 10.113  | Level 1     | UNUSED | -    | -       | -   |
+| 10.114  | Level 1     | UNUSED | -    | -       | -   |
+| 10.115  | Level 1     | UNUSED | -    | -       | -   |
+| 10.116  | Level 1     | UNUSED | -    | -       | -   |
+| 10.117  | Level 1     | UNUSED | -    | -       | -   |
+| 10.118  | Level 1     | UNUSED | -    | -       | -   |
+| 10.119  | Level 1     | UNUSED | -    | -       | -   |
+| 10.120  | Level 1     | UNUSED | -    | -       | -   |
+| 10.121  | Level 1     | UNUSED | -    | -       | -   |
+| 10.122  | Level 1     | UNUSED | -    | -       | -   |
+| 10.123  | Level 1     | UNUSED | -    | -       | -   |
+| 10.124  | Level 1     | UNUSED | -    | -       | -   |
+| 10.125  | Level 1     | UNUSED | -    | -       | -   |
+| 10.126  | Level 1     | UNUSED | -    | -       | -   |
+| 10.127  | Level 1     | UNUSED | -    | -       | -   |
+
+## Google Range
+
+| Network       | Usage Level | Region | Tier | Account | VPC |
+| ------------- | ----------- | ------ | ---- | ------- | --- |
+| 10.128-10.255 | Level 1     | GOOGLE | -    | -       | -   |
+
 ## Summary and Next Steps
 
 - **Key Takeaways**:
