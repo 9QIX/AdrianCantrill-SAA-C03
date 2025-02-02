@@ -36,7 +36,11 @@ This lesson focuses on designing a well-structured and scalable network inside A
 
 ## Case Study: Animals for Life Organization
 
+![alt text](image-1.png)
+
 ### Known Information
+
+![alt text](image-2.png)
 
 - The organization has **three major offices**:
   - London
@@ -54,6 +58,8 @@ This lesson focuses on designing a well-structured and scalable network inside A
 - These ranges **cannot** be used for the new AWS VPC design to avoid conflicts.
 
 ## Choosing an IP Range for the AWS VPC
+
+![alt text](image-3.png)
 
 ### AWS VPC Limitations
 
