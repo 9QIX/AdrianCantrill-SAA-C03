@@ -5,9 +5,9 @@
 - **VPC Limits**: [AWS Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html)
 - **Architecture Diagram**: ![VPC Structure](<https://raw.githubusercontent.com/acantril/aws-sa-associate-saac03/main/0800-VIRTUAL_PRIVATE_CLOUD(VPC)/00_LEARNINGAIDS/VPCStucture-1.png>)
 
----
-
 ## Introduction
+
+![alt text](image-7.png)
 
 This lesson focuses on building a **multi-tier, custom VPC** step by step. AWS VPCs allow for incremental complexity, making it easy to start simple and gradually add components.
 
@@ -76,7 +76,5 @@ This lesson focuses on building a **multi-tier, custom VPC** step by step. AWS V
 - The **next lesson** will cover the practical demo of creating the VPC.
 - This includes setting up **CIDR blocks, subnets, internet access, and security components**.
 - Gradual implementation to build a **fully functional multi-tier network** inside AWS.
-
----
 
 Stay tuned for the **hands-on demo** where we implement the **Animals4Life VPC** inside an AWS account!
