@@ -66,6 +66,8 @@ The template creates a tiered subnet structure across three availability zones (
 
 ## NAT Gateway Implementation Demo
 
+![alt text](image-42.png)
+
 ### Demo Overview
 
 The demo shows how to implement NAT gateways in each availability zone to provide internet access for private EC2 instances without exposing them directly to the internet. The architecture follows AWS best practices for high availability by placing a NAT gateway in each availability zone.
