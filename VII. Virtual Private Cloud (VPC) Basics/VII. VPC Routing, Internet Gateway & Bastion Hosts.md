@@ -6,7 +6,7 @@ This lesson covers how routing works within an AWS Virtual Private Cloud (VPC) a
 
 ## VPC Routing Overview
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 A **VPC router** is a highly available device present in every VPC, whether default or custom. Its main function is to move traffic between different locations. The router operates in all Availability Zones (AZs) used by the VPC and is always available.
 
@@ -20,7 +20,7 @@ When an EC2 instance in one subnet communicates with another subnet, the VPC rou
 
 ## Route Tables in VPC
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 ### Route Table Concepts
 
@@ -50,7 +50,7 @@ A route table is a list of **routes** that direct traffic based on its destinati
 
 ### Purpose and Functionality
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 An **Internet Gateway** is a highly available gateway that enables internet access for resources within a VPC.
 
@@ -63,7 +63,7 @@ An **Internet Gateway** is a highly available gateway that enables internet acce
 
 ### Steps to Enable Internet Access via IGW
 
-![alt text](image-19.png)
+![alt text](./Images/image-19.png)
 
 1. **Create and attach an Internet Gateway** to the VPC.
 2. **Create a custom route table** and associate it with the public subnet.
@@ -83,14 +83,14 @@ An **Internet Gateway** is a highly available gateway that enables internet acce
 ### Traffic Flow Example (IPv4)
 
 1. **Outgoing Traffic:**
-   ![alt text](image-20.png)
+   ![alt text](./Images/image-20.png)
 
    - An EC2 instance with private IP **10.16.16.20** initiates a request to an external service.
    - The **Internet Gateway replaces the private IP** with the assigned public IP (e.g., 43.250.192.20).
    - The packet is then sent over the public internet.
 
 2. **Incoming Traffic:**
-   ![alt text](image-21.png)
+   ![alt text](./Images/image-21.png)
    - The external server replies to **43.250.192.20**.
    - The **IGW translates the destination IP back to 10.16.16.20**.
    - The packet is forwarded to the EC2 instance inside the VPC.
@@ -103,7 +103,7 @@ An **Internet Gateway** is a highly available gateway that enables internet acce
 
 ## Bastion Host / Jumpbox
 
-![alt text](image-22.png)
+![alt text](./Images/image-22.png)
 
 Bastion Hosts and Jumpboxes are essential security components in cloud network architecture. They act as controlled entry points for managing private resources within a **Virtual Private Cloud (VPC)**.
 

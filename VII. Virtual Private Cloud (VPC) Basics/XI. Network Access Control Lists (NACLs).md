@@ -10,7 +10,7 @@ This lesson from LearnCantrill.io’s AWS Solutions Architect (SA) C03 course fo
 
 ## Core Concepts of NACLs
 
-![alt text](image-30.png)
+![alt text](./Images/image-30.png)
 
 **Key Characteristics:**
 
@@ -29,7 +29,7 @@ This lesson from LearnCantrill.io’s AWS Solutions Architect (SA) C03 course fo
 
 ### **Example Architecture: Single Subnet Communication**
 
-![alt text](image-31.png)
+![alt text](./Images/image-31.png)
 
 - Consider an AWS VPC with a subnet hosting two EC2 instances: **Instance A** and **Instance B**.
 - NACLs filter traffic **into and out of the subnet**, not between instances within the same subnet.
@@ -47,7 +47,7 @@ This lesson from LearnCantrill.io’s AWS Solutions Architect (SA) C03 course fo
 
 ## Multi-Tier Architecture and Complexity of NACL Rules
 
-![alt text](image-32.png)
+![alt text](./Images/image-32.png)
 
 **Scenario:** A multi-tier application with a web server and an application server across two subnets.
 
@@ -74,9 +74,9 @@ This lesson from LearnCantrill.io’s AWS Solutions Architect (SA) C03 course fo
 
 ## Default vs. Custom NACLs
 
-![alt text](image-33.png)
+![alt text](./Images/image-33.png)
 
-![alt text](image-34.png)
+![alt text](./Images/image-34.png)
 
 | Feature                | Default NACL                           | Custom NACL                           |
 | ---------------------- | -------------------------------------- | ------------------------------------- |
@@ -89,7 +89,7 @@ This lesson from LearnCantrill.io’s AWS Solutions Architect (SA) C03 course fo
 
 ## Key Properties and Considerations
 
-![alt text](image-35.png)
+![alt text](./Images/image-35.png)
 
 - **Stateless:** NACLs treat requests and responses separately.
 - **Subnet-Level:** They operate **only at subnet boundaries**.

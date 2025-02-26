@@ -12,7 +12,7 @@ This lesson focuses on designing a well-structured and scalable network inside A
 
 ## Key Concepts
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ### Importance of a Well-Designed VPC
 
@@ -36,11 +36,11 @@ This lesson focuses on designing a well-structured and scalable network inside A
 
 ## Case Study: Animals for Life Organization
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 ### Known Information
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 - The organization has **three major offices**:
   - London
@@ -59,7 +59,7 @@ This lesson focuses on designing a well-structured and scalable network inside A
 
 ## Choosing an IP Range for the AWS VPC
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 ### AWS VPC Limitations
 

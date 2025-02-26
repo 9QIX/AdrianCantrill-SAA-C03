@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 This guide details the manual creation of subnets within a custom AWS VPC for the _Animals for Life_ project. The process involves setting up multiple subnets across three availability zones (AZA, AZB, and AZC) with IPv4 and IPv6 configurations.
 

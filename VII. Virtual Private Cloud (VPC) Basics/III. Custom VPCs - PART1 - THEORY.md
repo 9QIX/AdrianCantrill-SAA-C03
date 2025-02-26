@@ -7,7 +7,7 @@
 
 ## Introduction
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 This lesson focuses on building a **multi-tier, custom VPC** step by step. AWS VPCs allow for incremental complexity, making it easy to start simple and gradually add components.
 

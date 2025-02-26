@@ -14,13 +14,13 @@ The lesson includes:
 
 ## **VPC Subnet Architecture**
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 At the start of this lesson, we have a **basic VPC framework (skeleton VPC)**. The goal is to create a structured **multi-tier VPC** by adding **subnets**.
 
 ### **Public vs. Private Subnets**
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 - **AWS uses color coding in architecture diagrams**:
   - **Green** → Public subnets.
@@ -29,7 +29,7 @@ At the start of this lesson, we have a **basic VPC framework (skeleton VPC)**. T
 
 ### **What is a Subnet?**
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 A **subnet** is:
 
@@ -45,7 +45,7 @@ A **subnet** is:
 
 ## **Subnet IP Addressing and Allocation**
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 ### **IPv4 CIDR Allocation**
 
@@ -92,7 +92,7 @@ Example for `10.16.16.0/20`:
 
 ## **DHCP Option Sets**
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 - **VPCs use a DHCP Option Set** to control:
   - **DNS servers**.
@@ -117,7 +117,7 @@ Two important settings are **defined at the subnet level**:
 
 ## **Demo: Creating Subnets**
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 In the **demo lesson**, we will **manually create 12 subnets** inside our **multi-tier VPC**.
 

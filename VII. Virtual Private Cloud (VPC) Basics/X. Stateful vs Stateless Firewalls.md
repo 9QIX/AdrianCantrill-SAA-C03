@@ -8,7 +8,7 @@ This document provides a detailed explanation of the differences between statefu
 
 ### How TCP and IP Work Together
 
-![alt text](image-25.png)
+![alt text](./Images/image-25.png)
 
 - TCP (Transmission Control Protocol) operates on top of IP (Internet Protocol) at Layer 4.
 - IP packets carry data with a source and destination IP across networks.
@@ -16,7 +16,7 @@ This document provides a detailed explanation of the differences between statefu
 
 ### Understanding TCP Connections
 
-![alt text](image-26.png)
+![alt text](./Images/image-26.png)
 
 - When a client (e.g., Bob's laptop) connects to a server (e.g., Categoram application), TCP establishes a connection.
 - Each connection consists of two parts:
@@ -36,7 +36,7 @@ This document provides a detailed explanation of the differences between statefu
 
 ### Outbound vs. Inbound Traffic
 
-![alt text](image-27.png)
+![alt text](./Images/image-27.png)
 
 - **Client Perspective**: Request = outbound, Response = inbound.
 - **Server Perspective**: Request = inbound, Response = outbound.
@@ -44,7 +44,7 @@ This document provides a detailed explanation of the differences between statefu
 
 ## Stateless Firewalls
 
-![alt text](image-28.png)
+![alt text](./Images/image-28.png)
 
 ### How Stateless Firewalls Work
 
@@ -72,7 +72,7 @@ This document provides a detailed explanation of the differences between statefu
 
 ## Stateful Firewalls
 
-![alt text](image-29.png)
+![alt text](./Images/image-29.png)
 
 ### How Stateful Firewalls Work
 

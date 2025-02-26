@@ -66,7 +66,7 @@ The template creates a tiered subnet structure across three availability zones (
 
 ## NAT Gateway Implementation Demo
 
-![alt text](image-42.png)
+![alt text](./Images/image-42.png)
 
 ### Demo Overview
 

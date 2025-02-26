@@ -12,7 +12,7 @@ This lesson continues the discussion on VPC (Virtual Private Cloud) sizing and s
 
 ## VPC Sizing in AWS
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 | VPC Size    | Netmask | Subnet Size | Hosts/Subnet | Subnets/VPC | Total IPs |
 | ----------- | ------- | ----------- | ------------ | ----------- | --------- |
@@ -103,7 +103,7 @@ AWS provides different VPC sizes, ranging from micro to extra-large:
 
 ## Subnets and Availability Zones
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 - Services in AWS use **subnets** within a VPC, not the VPC itself.
 - Each **subnet is located in a single availability zone (AZ)**.
@@ -169,7 +169,7 @@ AWS provides different VPC sizes, ranging from micro to extra-large:
 
 ## Implementation Strategy
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 - A **documented IP plan** (available in the GitHub repo) outlines the allocation strategy.
 - The plan ensures **non-overlapping VPCs** across accounts and regions.

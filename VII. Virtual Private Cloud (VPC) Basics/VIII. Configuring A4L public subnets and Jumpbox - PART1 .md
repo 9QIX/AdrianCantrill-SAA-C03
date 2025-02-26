@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-24.png)
+![alt text](./Images/image-24.png)
 
 This lesson demonstrates key networking concepts in AWS by configuring a **custom Virtual Private Cloud (VPC)**. The demo builds on prior lessons and focuses on enabling public internet access for specific subnets.
 

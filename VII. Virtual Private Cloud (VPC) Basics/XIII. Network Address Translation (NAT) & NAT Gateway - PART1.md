@@ -29,7 +29,7 @@ NAT is essential for private subnets that need outgoing internet access without 
 
 ## NAT Gateway Architecture
 
-![alt text](image-41.png)
+![alt text](./Images/image-41.png)
 
 Here's how the **NAT Gateway** works within an AWS VPC:
 

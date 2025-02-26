@@ -8,7 +8,7 @@ This lesson covers AWS Security Groups, a stateful security feature used to cont
 
 ### What Are Security Groups?
 
-![alt text](image-36.png)
+![alt text](./Images/image-36.png)
 
 - Security groups act as virtual firewalls, controlling traffic to and from AWS resources.
 - They are stateful, meaning response traffic is automatically allowed if the initial request is permitted.
@@ -37,7 +37,7 @@ This lesson covers AWS Security Groups, a stateful security feature used to cont
 
 ## Example Scenario: Single-Tier Application
 
-![alt text](image-37.png)
+![alt text](./Images/image-37.png)
 
 Consider an EC2 instance in a public subnet with HTTPS access from the internet.
 
@@ -54,7 +54,7 @@ Consider an EC2 instance in a public subnet with HTTPS access from the internet.
 
 ### Logical Resource Referencing
 
-![alt text](image-38.png)
+![alt text](./Images/image-38.png)
 
 Security groups can reference other AWS resources, enabling dynamic traffic control.
 
@@ -66,14 +66,14 @@ Example:
 
 **Effect:**
 
-![alt text](image-39.png)
+![alt text](./Images/image-39.png)
 
 - Any instance with the a4l-web security group can access any instance with the a4l-app security group on port 1337.
 - This eliminates the need for IP-based rules and simplifies scaling.
 
 ### Self-Referencing
 
-![alt text](image-40.png)
+![alt text](./Images/image-40.png)
 
 Security groups can reference themselves, enabling intra-group communication.
 

@@ -1,6 +1,6 @@
 # VPC Public Subnet Configuration Demo
 
-![alt text](image-23.png)
+![alt text](./Images/image-23.png)
 
 ## **VPC Public Subnet Configuration - Part 2**
 

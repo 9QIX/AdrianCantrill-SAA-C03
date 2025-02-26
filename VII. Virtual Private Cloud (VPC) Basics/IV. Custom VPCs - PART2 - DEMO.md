@@ -58,7 +58,7 @@ This lesson covers the architecture and key features of Custom VPCs, including t
 
 ## Next Steps
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 - In the following lessons, additional components will be configured:
   - **Creating and structuring subnets**.
