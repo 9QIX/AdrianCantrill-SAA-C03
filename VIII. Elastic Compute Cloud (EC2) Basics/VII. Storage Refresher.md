@@ -6,6 +6,8 @@ This lesson is a foundational refresher on storage concepts before diving into A
 
 ## Key Storage Terms
 
+![alt text](image-10.png)
+
 ### Direct Attached Storage (DAS)
 
 - Physical disks connected directly to a device (e.g., laptop, server).
@@ -32,6 +34,8 @@ This lesson is a foundational refresher on storage concepts before diving into A
 - **Important for the exam:** Understand which storage types are ephemeral vs. persistent.
 
 ## Three Main Categories of Storage in AWS
+
+![alt text](image-8.png)
 
 ### 1. Block Storage
 
@@ -63,6 +67,8 @@ This lesson is a foundational refresher on storage concepts before diving into A
 ## Storage Performance
 
 ### Key Performance Metrics
+
+![alt text](image-9.png)
 
 1. **IO or Block Size:** The size of individual read/write operations (e.g., 16 KB, 1 MB).
 2. **IOPS (Input/Output Operations Per Second):** Measures read/write operations per second.
