@@ -69,6 +69,8 @@ When an instance is launched from this AMI, AWS restores the EBS volume from the
 
 ## AMI Best Practices
 
+![alt text](image-30.png)
+
 - **Use AMI Baking:** Create pre-configured AMIs for rapid deployment.
 - **Automate AMI Creation:** Use AWS Systems Manager or EC2 Image Builder.
 - **Copy AMIs Across Regions:** Replicate AMIs to other AWS regions for redundancy.
@@ -76,8 +78,6 @@ When an instance is launched from this AMI, AWS restores the EBS volume from the
 - **Security Considerations:** Keep AMIs private unless necessary, and update software before creating AMIs.
 
 ## Exam Tips
-
-![alt text](image-30.png)
 
 - AMIs are **region-specific** but can be **copied to other regions**.
 - AMIs cannot be modified directly; instead, launch an instance, make changes, and create a **new AMI**.
