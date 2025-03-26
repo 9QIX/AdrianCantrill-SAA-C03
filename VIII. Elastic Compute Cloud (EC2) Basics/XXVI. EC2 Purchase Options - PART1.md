@@ -8,7 +8,7 @@ This document covers the main EC2 purchase options, their pros and cons, and whe
 
 ## On-Demand Instances
 
-![alt text](image-31.png)
+![alt text](./Images/image-31.png)
 
 ### **Overview**
 
@@ -45,7 +45,7 @@ This document covers the main EC2 purchase options, their pros and cons, and whe
 
 ## Spot Instances
 
-![alt text](image-32.png)
+![alt text](./Images/image-32.png)
 
 ### **Overview**
 

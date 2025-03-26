@@ -29,7 +29,7 @@ This document provides a detailed summary of EBS encryption, covering its archit
    - The DEK itself is encrypted using the KMS key and stored with the volume.
    - The DEK can only be decrypted using KMS by an entity with proper permissions.
 
-   ![alt text](image-23.png)
+   ![alt text](./Images/image-23.png)
 
 3. **Usage and Key Management:**
    - When an EC2 instance uses an encrypted volume, EBS requests KMS to decrypt the DEK.
@@ -42,7 +42,7 @@ This document provides a detailed summary of EBS encryption, covering its archit
    - Any new volumes created from this snapshot will inherit the same DEK and remain encrypted.
    - However, when creating a completely new volume from scratch, a **new** DEK is generated.
 
-   ![alt text](image-24.png)
+   ![alt text](./Images/image-24.png)
 
 ## Key Exam Considerations
 

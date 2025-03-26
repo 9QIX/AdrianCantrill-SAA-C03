@@ -56,7 +56,7 @@ AWS EC2 instance names follow a structured format:
 <Instance Family><Generation><Additional Features>.<Size>
 ```
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 For example: `r5dn.8xlarge`
 
 ### Breakdown of Components

@@ -6,7 +6,7 @@ Instance store volumes provide **temporary block-level storage** for EC2 instanc
 
 ## Key Characteristics of Instance Store Volumes
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 - **Physically attached to the EC2 host**
 - **High-performance storage** (faster than EBS)
@@ -28,7 +28,7 @@ Each instance store volume is backed by **physical disks on the EC2 host**. If a
 
 ### Example Architecture
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 | EC2 Host | Instance   | Instance Store Volumes |
 | -------- | ---------- | ---------------------- |
@@ -60,7 +60,7 @@ Instance store volumes are best used for **temporary storage** and **high-perfor
 
 ## Performance Benefits
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 - **Higher IOPS and throughput** than EBS
 - **Best for high-performance, transient workloads**

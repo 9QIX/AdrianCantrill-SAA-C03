@@ -2,7 +2,7 @@
 
 ### Introduction
 
-![alt text](image-20.png)
+![alt text](./Images/image-20.png)
 
 This lesson covers the scenarios in which you should use **EBS (Elastic Block Store)** over **Instance Store Volumes**, and vice versa. It also highlights cases where the choice depends on specific requirements. These insights are crucial for both real-world applications and AWS certification exams.
 
@@ -67,7 +67,7 @@ Instance Store Volumes are **directly attached to EC2 instances** and provide hi
 
 ## EBS Storage Class Recommendations
 
-![alt text](image-19.png)
+![alt text](./Images/image-19.png)
 
 ### Cost-Effective EBS Choices
 

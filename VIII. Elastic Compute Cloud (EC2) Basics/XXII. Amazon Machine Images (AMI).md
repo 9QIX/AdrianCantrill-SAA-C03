@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![alt text](image-28.png)
+![alt text](./Images/image-28.png)
 
 This lesson dives into the details of Amazon Machine Images (AMIs), their purpose, lifecycle, and best practices in AWS. AMIs serve as templates for launching EC2 instances, allowing users to create customized configurations for rapid deployment.
 
@@ -28,7 +28,7 @@ This lesson dives into the details of Amazon Machine Images (AMIs), their purpos
 
 ## AMI Lifecycle
 
-![alt text](image-29.png)
+![alt text](./Images/image-29.png)
 
 1. **Launch:** Use an AMI to create an EC2 instance.
 2. **Configure:** Modify the instance as per requirements (install software, configure settings).
@@ -69,7 +69,7 @@ When an instance is launched from this AMI, AWS restores the EBS volume from the
 
 ## AMI Best Practices
 
-![alt text](image-30.png)
+![alt text](./Images/image-30.png)
 
 - **Use AMI Baking:** Create pre-configured AMIs for rapid deployment.
 - **Automate AMI Creation:** Use AWS Systems Manager or EC2 Image Builder.

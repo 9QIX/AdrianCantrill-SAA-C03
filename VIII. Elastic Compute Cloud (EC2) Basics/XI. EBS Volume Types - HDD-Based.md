@@ -6,7 +6,7 @@ This lesson covers the **HDD-based EBS volume types**, which use **mechanical co
 
 ## Types of HDD-Based EBS Volumes
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 There are **two main HDD-based volume types** in general usage:
 

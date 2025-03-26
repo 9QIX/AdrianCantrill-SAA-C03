@@ -19,7 +19,7 @@ This lesson focuses on the architecture of Amazon EC2 (Elastic Compute Cloud), a
 
 ## EC2 Networking & Storage
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 - **Networking**
   - Instances are provisioned within **VPC subnets**, which exist in a single AZ.

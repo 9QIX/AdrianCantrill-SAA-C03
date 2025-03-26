@@ -14,7 +14,7 @@ In this lesson, we cover key networking concepts related to EC2 instances, inclu
 
 ### **Attributes of ENIs**
 
-![alt text](image-25.png)
+![alt text](./Images/image-25.png)
 
 Each ENI has the following attributes:
 
@@ -59,7 +59,7 @@ This behavior ensures:
 
 ## **4. Elastic IPs (EIPs)**
 
-![alt text](image-26.png)
+![alt text](./Images/image-26.png)
 
 ### **How Elastic IPs Work**
 
@@ -106,7 +106,7 @@ This behavior ensures:
 
 ## **7. Key Exam Takeaways**
 
-![alt text](image-27.png)
+![alt text](./Images/image-27.png)
 
 | Concept                 | Key Details                                                  |
 | ----------------------- | ------------------------------------------------------------ |

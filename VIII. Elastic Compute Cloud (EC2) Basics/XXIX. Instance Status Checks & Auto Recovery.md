@@ -9,7 +9,7 @@ This lesson covers **EC2 Status Checks** and **Auto Recovery**, two key AWS EC2 
 
 ## EC2 Status Checks
 
-![alt text](image-39.png)
+![alt text](./Images/image-39.png)
 
 Every EC2 instance has two **high-level per-instance status checks**:
 

@@ -6,7 +6,7 @@ This document continues the discussion on **AWS EC2 Purchase Options**, focusing
 
 ## **2. Reserved Instances (RI)**
 
-![alt text](image-33.png)
+![alt text](./Images/image-33.png)
 
 ### **Overview**
 
@@ -51,7 +51,7 @@ This document continues the discussion on **AWS EC2 Purchase Options**, focusing
 
 ## **3. Dedicated Hosts**
 
-![alt text](image-34.png)
+![alt text](./Images/image-34.png)
 
 ### **Overview**
 
@@ -92,7 +92,7 @@ This document continues the discussion on **AWS EC2 Purchase Options**, focusing
 
 ## **4. Dedicated Instances**
 
-![alt text](image-35.png)
+![alt text](./Images/image-35.png)
 
 ### **Overview**
 

@@ -52,7 +52,7 @@ EBS offers different types of storage, optimized for performance and cost:
 
 ## EBS Architecture Overview
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 ### **Regional and Availability Zone Structure**
 

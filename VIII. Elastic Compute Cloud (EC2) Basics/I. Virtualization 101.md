@@ -6,7 +6,7 @@ This lesson introduces the fundamentals of virtualization as it applies to AWS E
 
 ## Traditional Computing Model (Without Virtualization)
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 Before virtualization, a server had:
 
@@ -23,7 +23,7 @@ Before virtualization, a server had:
 
 ## What is Virtualization?
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 Virtualization allows **multiple operating systems (OS)** to run on the same physical hardware by using a **hypervisor**.
 
@@ -45,7 +45,7 @@ CPUs were not designed for virtualization. This caused issues because:
 
 ### 1️. **Software-Based (Emulated) Virtualization**
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 - A **host OS** runs a **hypervisor** that creates virtual machines
 - Guest OS runs **unmodified** but interacts with **emulated hardware**
@@ -54,7 +54,7 @@ CPUs were not designed for virtualization. This caused issues because:
 
 ### 2️. **Paravirtualization (PV)**
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 - Guest OS is **modified** to communicate with the hypervisor using **hypercalls**
 - No need for binary translation, resulting in **better performance**
@@ -62,7 +62,7 @@ CPUs were not designed for virtualization. This caused issues because:
 
 ### 3️. **Hardware-Assisted Virtualization**
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 - Modern CPUs include **virtualization-aware instructions** (Intel VT-x, AMD-V)
 - Guest OS attempts **privileged operations**, which are **trapped by the CPU**
@@ -78,7 +78,7 @@ Even with **hardware-assisted virtualization**, some performance issues remain:
 
 ### **Solution: SR-IOV (Single Root I/O Virtualization)**
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 - **SR-IOV allows physical devices (e.g., network cards) to be virtualization-aware**
 - A single physical device presents itself as **multiple logical devices**

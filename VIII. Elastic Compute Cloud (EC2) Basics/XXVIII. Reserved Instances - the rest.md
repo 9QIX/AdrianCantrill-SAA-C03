@@ -13,7 +13,7 @@ Standard Reserved Instances are used for long-term, consistent usage patterns an
 
 ## Scheduled Reserved Instances
 
-![alt text](image-36.png)
+![alt text](./Images/image-36.png)
 
 Scheduled Reserved Instances allow customers to reserve compute capacity for specific time periods.
 
@@ -33,7 +33,7 @@ Scheduled Reserved Instances allow customers to reserve compute capacity for spe
 
 ## Capacity Reservations
 
-![alt text](image-37.png)
+![alt text](./Images/image-37.png)
 
 Capacity reservations ensure that compute capacity is available when needed, without requiring a long-term pricing commitment.
 
@@ -67,7 +67,7 @@ Capacity reservations ensure that compute capacity is available when needed, wit
 
 ## Savings Plans
 
-![alt text](image-38.png)
+![alt text](./Images/image-38.png)
 
 Savings Plans provide cost reductions similar to Reserved Instances but with greater flexibility across AWS services.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 This lesson covers **Provisioned IOPS SSD** volumes in AWS, specifically **IO1, IO2, and IO2 Block Express**. These volumes are designed for high-performance workloads requiring **low latency and consistent performance**.
 

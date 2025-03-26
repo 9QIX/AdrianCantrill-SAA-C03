@@ -34,7 +34,7 @@ This lesson covers **Amazon Elastic Block Store (EBS) Snapshots**, their archite
 
 ### **Snapshot Architecture**
 
-![alt text](image-21.png)
+![alt text](./Images/image-21.png)
 
 - Snapshots are stored in **S3**, making them **region-resilient**.
 - Snapshots can be used to **create new EBS volumes** in:
@@ -44,7 +44,7 @@ This lesson covers **Amazon Elastic Block Store (EBS) Snapshots**, their archite
 
 ## **Incremental Snapshots - How They Work**
 
-![alt text](image-22.png)
+![alt text](./Images/image-22.png)
 
 Each snapshot references the previous one:
 

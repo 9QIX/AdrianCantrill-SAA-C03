@@ -6,7 +6,7 @@ This lesson covers two general-purpose SSD volume types in AWS Elastic Block Sto
 
 ## GP2 (General Purpose SSD - Version 2)
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 ### Overview
 
@@ -47,7 +47,7 @@ GP2 was a game-changing storage type when introduced, offering high performance 
 
 ## GP3 (General Purpose SSD - Version 3)
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 ### Key Differences from GP2
 
