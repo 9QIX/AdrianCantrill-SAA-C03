@@ -11,7 +11,7 @@ In this lesson, we explore the two different modes available for running contain
 
 ### Architecture
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 - ECS management components handle scheduling, orchestration, and cluster management.
 - The ECS cluster runs within a **VPC**, leveraging multiple **Availability Zones (AZs)**.
@@ -37,7 +37,7 @@ In this lesson, we explore the two different modes available for running contain
 
 ### Architecture
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 - AWS manages a **shared Fargate infrastructure platform**.
 - **No EC2 instances** to manage.
@@ -60,7 +60,7 @@ In this lesson, we explore the two different modes available for running contain
 
 ## Choosing Between EC2 Mode and Fargate Mode
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 | Criteria            | EC2 Mode                | Fargate Mode                |
 | ------------------- | ----------------------- | --------------------------- |

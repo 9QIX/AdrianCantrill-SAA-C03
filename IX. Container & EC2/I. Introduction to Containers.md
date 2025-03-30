@@ -16,7 +16,7 @@ The lesson starts with theory, followed by a hands-on demo where you will create
 
 ### **Problems with Virtual Machines (VMs)**
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 1. **Resource Waste**:
 
@@ -36,7 +36,7 @@ The lesson starts with theory, followed by a hands-on demo where you will create
 
 ### **How Containers Work**
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 - Instead of running multiple **guest OSs**, containers share the **host OS kernel** using a **container engine** (e.g., **Docker**).
 - **A container runs as a process** in the host OS but is isolated from other processes.
@@ -80,7 +80,7 @@ CMD ["httpd", "-D", "FOREGROUND"]
 
 #### **Line-by-line Explanation**
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 1. `FROM centos:7`
 
@@ -104,7 +104,7 @@ CMD ["httpd", "-D", "FOREGROUND"]
 
 ### **How Docker Images Work**
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 1. Images are built **layer by layer**, with each line in the Dockerfile adding a new **read-only layer**.
 2. **Layers are shared across multiple containers**, saving storage space.
@@ -114,7 +114,7 @@ CMD ["httpd", "-D", "FOREGROUND"]
 
 ### **What is a Docker Container?**
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 - A **running instance** of a **Docker image**.
 - It is **isolated** but **shares the host OS kernel**.
@@ -173,7 +173,7 @@ docker push username/my-web-app:v1
 
 ## **Key Benefits of Containers**
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 1. **Portability**
 

@@ -9,7 +9,7 @@ AWS Elastic Container Service (ECS) is a fully managed container orchestration s
 
 ## How ECS Works
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 ECS is responsible for orchestrating where and how to run containers. It functions similarly to EC2 for virtual machines but for containerized workloads.
 
@@ -117,7 +117,7 @@ ECS integrates with **Elastic Load Balancer (ELB)**:
 
 ## Summary
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 1. **ECS is a managed container orchestration service** that simplifies container deployments.
 2. **ECS can run in EC2 or Fargate mode**, where EC2 requires managing hosts, while Fargate is serverless.
