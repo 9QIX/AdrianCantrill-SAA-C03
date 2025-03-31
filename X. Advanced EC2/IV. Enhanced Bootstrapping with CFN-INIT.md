@@ -6,7 +6,7 @@ This lesson covers **AWS CloudFormation Init (CFN Init)**, an advanced method fo
 
 ## Overview of CFN Init
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 CloudFormation Init (`cfn-init`) is a helper script installed on Amazon Linux 2 and other supported OS environments. Unlike basic **user data**, which is procedural and runs once during instance startup, CFN Init supports both **procedural execution** and **desired state configuration**.
 
@@ -30,7 +30,7 @@ CloudFormation Init (`cfn-init`) is a helper script installed on Amazon Linux 2 
 
 ## CFN Init in a CloudFormation Template
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 CloudFormation Init is defined within the **metadata** section of an EC2 instance resource in a CloudFormation template:
 
@@ -101,7 +101,7 @@ By default, CloudFormation does not verify if an EC2 instance is properly config
 
 ### Adding a Creation Policy
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 A **creation policy** ensures CloudFormation waits for a success signal before completing instance creation.
 

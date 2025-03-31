@@ -6,7 +6,7 @@ AWS Systems Manager Parameter Store is a service that allows secure storage and 
 
 ## Why Use Parameter Store?
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 Passing sensitive information through user data in EC2 instances is considered bad practice because anyone with access to the instance can retrieve those secrets. Parameter Store helps improve security by securely storing configuration values and secrets.
 
@@ -42,7 +42,7 @@ AWS provides publicly available parameters, such as AMI IDs for different operat
 
 ## Architecture and Access Control
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 ### Accessing Parameter Store
 

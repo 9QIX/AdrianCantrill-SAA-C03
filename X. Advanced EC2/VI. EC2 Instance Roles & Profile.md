@@ -17,7 +17,7 @@ This lesson covers the importance of AWS IAM roles, particularly in the context 
 
 ### How EC2 Instance Roles Work Architecturally
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 1. An **IAM role** is created with an attached permissions policy.
 2. When assumed, it generates **temporary security credentials**.
@@ -59,7 +59,7 @@ This lesson covers the importance of AWS IAM roles, particularly in the context 
 
 ## Best Practices
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 - **Always use IAM roles for EC2 instances instead of hardcoded credentials**.
 - **Do not store access keys on the instance itself**.

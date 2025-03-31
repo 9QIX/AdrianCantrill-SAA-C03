@@ -6,7 +6,7 @@ EC2 bootstrapping is a powerful feature that allows automation during instance l
 
 ## What is Bootstrapping?
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 Bootstrapping is a general automation process where a system performs self-configuration at launch. In AWS EC2, bootstrapping is implemented using **EC2 User Data**.
 
@@ -39,7 +39,7 @@ http://169.254.169.254/latest/user-data
 
 ## Bootstrapping Architecture
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 1. **AMI Launch:**
 
@@ -65,7 +65,7 @@ http://169.254.169.254/latest/user-data
 
 ## Managing Boot Time to Service Time
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 "Boot Time to Service Time" refers to the duration from instance launch to readiness. Several factors influence this:
 
@@ -93,7 +93,7 @@ http://169.254.169.254/latest/user-data
 
 ### **Best Practice: Hybrid Approach**
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 - Use AMI baking for time-intensive installations.
 - Use bootstrapping for final configurations.
