@@ -16,7 +16,7 @@ Multi-Value Routing allows you to create **multiple DNS records with the same na
 
 ## How Multi-Value Routing Works
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 1. **DNS Records Creation**
 

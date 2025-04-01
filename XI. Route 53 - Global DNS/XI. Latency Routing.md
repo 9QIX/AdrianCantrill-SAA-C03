@@ -13,7 +13,7 @@
 
 ## How Latency-Based Routing Works
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 ### Step 1: Creating DNS Records
 

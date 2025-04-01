@@ -14,7 +14,7 @@ This document provides an in-depth summary of AWS Route 53 Public Hosted Zones. 
 
 ## Public Hosted Zones
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 A **public hosted zone** is a **DNS database** hosted by Route 53 on **public name servers**, making it accessible from the internet and within AWS VPCs.
 

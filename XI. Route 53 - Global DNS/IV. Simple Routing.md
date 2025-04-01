@@ -6,7 +6,7 @@ This lesson introduces **Simple Routing**, which is the **default and most basic
 
 ## **Understanding Simple Routing**
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 ### **How Simple Routing Works**
 

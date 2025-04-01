@@ -17,7 +17,7 @@ Key features include:
 
 ## How Weighted Routing Works
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 1. **Create Multiple DNS Records**
 

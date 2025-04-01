@@ -14,7 +14,7 @@
 
 ## How Geo Location Routing Works
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 ### Step 1: Creating DNS Records
 

@@ -42,7 +42,7 @@ Private hosted zones are useful when:
 
 ## Architecture of Private Hosted Zones
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 1. A **Private Hosted Zone** is created in Route 53.
 2. It is associated with **one or more VPCs**.
@@ -78,7 +78,7 @@ Private hosted zones are useful when:
 
 ## Example: Split-View DNS in Action
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 Consider a scenario where a company wants **internal users** to access an **internal version** of `accounting.animalsforlife.org`, but external users should not see it.
 

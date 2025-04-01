@@ -13,7 +13,7 @@
 
 ## How Geo Proximity Routing Works
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 ### Step 1: Defining Resources
 

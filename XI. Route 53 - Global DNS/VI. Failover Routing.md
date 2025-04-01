@@ -39,7 +39,7 @@ Failover routing is ideal for **active-passive failover** scenarios where:
 
 ## **Example Architecture**
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 ### **Scenario**
 
