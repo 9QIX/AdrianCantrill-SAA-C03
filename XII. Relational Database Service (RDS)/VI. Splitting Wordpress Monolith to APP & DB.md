@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 This lesson demonstrates how to migrate a WordPress database from a monolithic architecture (where the database and application are hosted on the same server) to a tiered architecture (where the database is hosted separately on a dedicated MariaDB instance). This is the first step in transitioning towards a fully elastic architecture.
 

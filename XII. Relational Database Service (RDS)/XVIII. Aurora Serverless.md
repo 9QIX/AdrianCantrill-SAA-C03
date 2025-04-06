@@ -17,7 +17,7 @@ This moves Aurora closer to a true **Database-as-a-Service (DBaaS)** model by re
 
 ## Key Concept: Aurora Capacity Units (ACUs)
 
-![alt text](image-23.png)
+![alt text](./Images/image-23.png)
 
 - Aurora Serverless introduces **ACUs** (Aurora Capacity Units).
 - Each ACU includes a predefined amount of **CPU and memory**.
@@ -44,7 +44,7 @@ This moves Aurora closer to a true **Database-as-a-Service (DBaaS)** model by re
 
 ## Aurora Serverless Architecture
 
-![alt text](image-24.png)
+![alt text](./Images/image-24.png)
 
 ### Shared Characteristics with Aurora Provisioned
 

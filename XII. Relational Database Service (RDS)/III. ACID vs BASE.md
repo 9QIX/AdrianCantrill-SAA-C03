@@ -4,7 +4,7 @@ This document provides a detailed summary of the **ACID vs BASE** database trans
 
 ## **1. Introduction to ACID and BASE**
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 ACID and BASE are two database transaction models. These models define how transactions interact with a database, affecting its architecture and behavior.
 
@@ -20,7 +20,7 @@ Since it's impossible to achieve all three simultaneously, database systems must
 
 ## **2. ACID - Strong Consistency Model**
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 ACID ensures strict transaction reliability and is commonly used in **relational databases (RDS, SQL-based systems)**. ACID stands for:
 
@@ -57,7 +57,7 @@ ACID ensures strict transaction reliability and is commonly used in **relational
 
 ## **3. BASE - High Availability Model**
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 BASE provides a more **flexible, scalable** approach and is commonly used in **NoSQL databases (e.g., DynamoDB, Cassandra, MongoDB).** BASE stands for:
 

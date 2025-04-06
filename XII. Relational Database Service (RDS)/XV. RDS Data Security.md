@@ -57,7 +57,7 @@ For **RDS Oracle**, TDE can integrate with **CloudHSM** for even stronger key co
 
 Here’s a conceptual architecture to understand encryption flow:
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 ### **With Oracle + TDE + CloudHSM:**
 
@@ -81,7 +81,7 @@ Here’s a conceptual architecture to understand encryption flow:
 
 ### IAM-based Authentication:
 
-![alt text](image-19.png)
+![alt text](./Images/image-19.png)
 
 You can enable IAM authentication to log in to RDS **without a password**, using a **temporary token**.
 

@@ -8,7 +8,7 @@ This lesson continues from the previous discussion on NoSQL databases, explainin
 
 ### 1. **Key-Value Databases**
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 - **Structure:** Consists of unique keys and associated values.
 - **Example Use Case:** Storing sensor data, such as tracking the number of cookies eaten by animals in a rescue center.
@@ -21,7 +21,7 @@ This lesson continues from the previous discussion on NoSQL databases, explainin
 
 ### 2. **Wide Column Stores**
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 - **Structure:**
   - Similar to key-value but allows multiple keys.
@@ -36,7 +36,7 @@ This lesson continues from the previous discussion on NoSQL databases, explainin
 
 ### 3. **Document Databases**
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 - **Structure:**
   - Stores data as documents (JSON, XML, etc.).
@@ -52,7 +52,7 @@ This lesson continues from the previous discussion on NoSQL databases, explainin
 
 ### 4. **Columnar Databases**
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 - **Structure:**
   - Stores data by columns instead of rows.
@@ -66,7 +66,7 @@ This lesson continues from the previous discussion on NoSQL databases, explainin
 
 ### 5. **Graph Databases**
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 - **Structure:**
   - Uses nodes (entities) and edges (relationships) to store and query data.

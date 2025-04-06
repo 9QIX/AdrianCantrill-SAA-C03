@@ -15,7 +15,7 @@ Each type has different ways of storing, retrieving, and managing data.
 
 ## Relational Databases (SQL-based)
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 Relational databases follow a structured approach to data storage and retrieval.
 

@@ -31,7 +31,7 @@
 
 ### Diagram Explanation
 
-![alt text](image-25.png)
+![alt text](./Images/image-25.png)
 
 ## Use Cases
 

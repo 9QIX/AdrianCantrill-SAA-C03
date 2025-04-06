@@ -13,7 +13,7 @@ Both types of backups are stored in **Amazon S3**, using AWS-managed storage (no
 
 ### 1. **Automated Backups**
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 - **Enabled by default**
 - Occur **once per day**
@@ -40,7 +40,7 @@ Both types of backups are stored in **Amazon S3**, using AWS-managed storage (no
 
 ### 2. **Manual Snapshots**
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 - **User-initiated** (via script, console, or API)
 - Also stored in **S3**, not visible to user

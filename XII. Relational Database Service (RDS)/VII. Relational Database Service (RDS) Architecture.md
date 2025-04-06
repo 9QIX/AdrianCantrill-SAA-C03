@@ -22,7 +22,7 @@ Amazon RDS is a **managed database server as a service** offering that provides 
 
 ## RDS Architecture
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 Amazon RDS runs inside a **VPC (Virtual Private Cloud)** and requires **subnets** to operate. It is not a public service like S3 or DynamoDB.
 
@@ -66,7 +66,7 @@ Amazon RDS runs inside a **VPC (Virtual Private Cloud)** and requires **subnets*
 
 ## RDS Cost Architecture
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 RDS pricing is based on **resource allocation** rather than direct usage. The main cost components include:
 

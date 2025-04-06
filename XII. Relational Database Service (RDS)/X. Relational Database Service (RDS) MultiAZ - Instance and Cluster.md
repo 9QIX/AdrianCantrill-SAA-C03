@@ -13,7 +13,7 @@ Each offers different architecture, features, and trade-offs.
 
 ### Architecture
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 - Consists of:
   - One **primary database instance**
@@ -49,7 +49,7 @@ Each offers different architecture, features, and trade-offs.
 
 ### Cluster Architecture
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 - One **writer instance**
 - Two **reader instances** in different AZs

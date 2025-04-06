@@ -10,7 +10,7 @@ It is always a bad idea to run databases on EC2 unless specific business or tech
 
 ## Typical Architectures for Databases on EC2
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 ### Single EC2 Instance
 

@@ -6,7 +6,7 @@ Amazon Aurora is technically part of the **RDS (Relational Database Service)** f
 
 ## 1. **Aurora Architecture Basics**
 
-![alt text](image-21.png)
+![alt text](./Images/image-21.png)
 
 ### Cluster-Based Design
 
@@ -54,7 +54,7 @@ Aurora is **cluster-based**, unlike traditional RDS engines.
 
 ## 5. **Endpoints & Connection Management**
 
-![alt text](image-22.png)
+![alt text](./Images/image-22.png)
 
 Aurora provides **multiple types of DNS endpoints** for connecting applications:
 

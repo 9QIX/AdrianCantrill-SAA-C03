@@ -10,7 +10,7 @@ RDS Read Replicas are **read-only copies** of an RDS database instance that prov
 
 ## Key Concepts
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 ### 1. **What Are Read Replicas?**
 

@@ -75,7 +75,7 @@ If you plan to perform customizations:
 
 This breakdown shows who manages what across different DB deployment models:
 
-![alt text](image-20.png)
+![alt text](./Images/image-20.png)
 
 | Responsibility           | On-Premises | EC2-hosted DB | RDS Standard | RDS Custom |
 | ------------------------ | ----------- | ------------- | ------------ | ---------- |

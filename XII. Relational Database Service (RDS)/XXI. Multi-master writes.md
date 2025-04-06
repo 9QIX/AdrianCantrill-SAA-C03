@@ -2,13 +2,13 @@
 
 ## Overview
 
-![alt text](image-26.png)
+![alt text](./Images/image-26.png)
 
 **Aurora Multi-Master** is an advanced Amazon Aurora feature that allows multiple database instances within a cluster to **perform both reads and writes simultaneously**. This differs from the default **single-master Aurora**, where only **one writer** is allowed and the rest are **read-only replicas**.
 
 ## Aurora Single-Master Mode (Default)
 
-![alt text](image-27.png)
+![alt text](./Images/image-27.png)
 
 In the **default mode**, also called **single-master**, the architecture includes:
 
@@ -29,7 +29,7 @@ In the **default mode**, also called **single-master**, the architecture include
 
 ## Aurora Multi-Master Mode
 
-![alt text](image-28.png)
+![alt text](./Images/image-28.png)
 
 ### Key Characteristics
 
