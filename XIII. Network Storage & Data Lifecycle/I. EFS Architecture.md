@@ -26,7 +26,7 @@
 
 ## Architecture of EFS
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ### High-Level Architecture
 
