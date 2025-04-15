@@ -124,5 +124,3 @@ Reverse applies for response traffic.
 ## Conclusion
 
 Gateway Load Balancers are essential for **scalable, flexible, third-party security** in AWS. They abstract complexity, maintain packet integrity, and support dynamic workloads without compromising performance or security.
-
-> _Continue to the next lesson for nuanced features and advanced configurations of GWLB._
