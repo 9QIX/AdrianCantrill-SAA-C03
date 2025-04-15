@@ -12,7 +12,7 @@ This lab from the **Learn Cantrill AWS SA-C03 Course** provides hands-on experie
 
 ## Overview
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 The focus of this lab is on how **session stickiness** works with an **Application Load Balancer (ALB)**. You’ll interact with a load-balanced group of EC2 instances and see how enabling stickiness alters routing behavior.
 

@@ -2,7 +2,7 @@
 
 This stage in the Cantrill.io AWS Solutions Architect course focuses on building a **scalable**, **resilient**, and **self-healing architecture** for a WordPress application by integrating:
 
-![alt text](image-22.png)
+![alt text](./Images/image-22.png)
 
 - An **Application Load Balancer (ALB)**
 - An **Auto Scaling Group (ASG)**

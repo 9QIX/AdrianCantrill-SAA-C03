@@ -17,7 +17,7 @@ ASGs require a **Launch Configuration** or a specific version of a **Launch Temp
 
 Each ASG includes three critical values:
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 | Parameter | Description                          |
 | --------- | ------------------------------------ |
@@ -31,7 +31,7 @@ The ASG automatically provisions or terminates instances to maintain the **desir
 
 ## Scaling Modes
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 ### 1. **Manual Scaling**
 
@@ -94,7 +94,7 @@ This ensures the instance is replaced and can recover in another AZ.
 
 ## Integration with Load Balancers
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 When integrated with a **Load Balancer**:
 

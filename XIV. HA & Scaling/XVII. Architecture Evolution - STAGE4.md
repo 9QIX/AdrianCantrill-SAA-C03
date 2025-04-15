@@ -6,7 +6,7 @@ Stage 4 involves migrating the WordPress content folder (`wp-content`) from the 
 
 ## Architecture
 
-![alt text](image-20.png)
+![alt text](./Images/image-20.png)
 
 This stage evolves the architecture by:
 

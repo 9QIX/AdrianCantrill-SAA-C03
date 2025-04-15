@@ -2,7 +2,7 @@
 
 ## Architecture Overview
 
-![alt text](image-19.png)
+![alt text](./Images/image-19.png)
 
 In this stage, we migrate the WordPress database from the EC2 instance to a dedicated **Amazon RDS** instance. This separation enables independent scaling of the application and the database layer and ensures data persistence even if the EC2 instance is terminated.
 

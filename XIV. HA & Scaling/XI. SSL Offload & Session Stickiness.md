@@ -9,7 +9,7 @@ While detailed implementation is not required for the exam, understanding the **
 
 ## SSL Handling Modes
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 There are three architectural methods a Load Balancer can use to handle secure (HTTPS) connections:
 
@@ -86,7 +86,7 @@ There are three architectural methods a Load Balancer can use to handle secure (
 
 ## Session Stickiness
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 ### Overview
 

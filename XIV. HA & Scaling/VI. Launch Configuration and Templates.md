@@ -67,7 +67,7 @@ Launch configurations do **not** support modern EC2 features such as:
 
 ## Architectural Considerations
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 - **Launch Configurations**: Designed solely for use within Auto Scaling Groups.
 - **Launch Templates**: Can be used in Auto Scaling Groups and also for manual EC2 launches. This makes them more versatile in operational and automated environments.

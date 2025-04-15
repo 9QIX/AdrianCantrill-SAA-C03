@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 In this stage, the manual installation of WordPress is replaced by an **automated EC2 instance launch** using **Launch Templates**. The instance will host both the **WordPress application** and the **MariaDB database** on a **single EC2 instance**. This setup mimics Stage 1's architecture but improves build speed and repeatability.
 

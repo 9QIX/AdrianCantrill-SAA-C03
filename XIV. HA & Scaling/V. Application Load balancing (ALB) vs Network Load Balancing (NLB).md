@@ -14,7 +14,7 @@ This lesson focuses on understanding the **differences, advantages, and ideal us
 
 ### Example Architecture:
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 **Limitation**: Cannot serve multiple HTTPS applications (e.g., catagram.io and dogagram.io) without deploying multiple CLBs.
 
@@ -90,7 +90,7 @@ You can serve multiple apps (e.g., catagram and dogagram) using a single ALB by:
 
 ### Visual Architecture Example:
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 ### Example Use Case: Redirect
 

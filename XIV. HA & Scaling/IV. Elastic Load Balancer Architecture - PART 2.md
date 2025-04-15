@@ -21,7 +21,7 @@ Each tier is abstracted and decoupled using load balancers.
 
 ## Purpose of Load Balancers in Architecture
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 ### Without Load Balancers:
 
@@ -49,7 +49,7 @@ Each tier is abstracted from the physical deployment of the next.
 
 ## Cross-Zone Load Balancing
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 ### Problem Before Cross-Zone Load Balancing:
 

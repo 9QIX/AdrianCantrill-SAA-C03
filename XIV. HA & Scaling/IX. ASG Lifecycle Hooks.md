@@ -91,7 +91,7 @@ terminating → terminating:wait → terminating:proceed → terminated
 
 ## Lifecycle Hook Execution Flow (Launch Example)
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 ```plaintext
 Auto Scaling Group decides to scale out

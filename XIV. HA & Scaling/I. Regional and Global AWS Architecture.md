@@ -23,7 +23,7 @@ Three core types of architectures were discussed:
 
 ## AWS Global Architecture Components
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 These global components work together to make services accessible, resilient, and performant across geographies.
 
@@ -55,7 +55,7 @@ Secondary Region → ap-southeast-2 (Australia)
 
 ## AWS Regional Architecture Components
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 Once DNS resolves the region, traffic enters specific **AWS Regions** where regional services are deployed.
 

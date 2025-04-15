@@ -4,7 +4,7 @@
 
 ## Architecture Overview
 
-![alt text](image-21.png)
+![alt text](./Images/image-21.png)
 
 The infrastructure enhancement includes:
 

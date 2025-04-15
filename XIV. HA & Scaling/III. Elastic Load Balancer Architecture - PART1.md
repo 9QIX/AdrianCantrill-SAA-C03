@@ -13,7 +13,7 @@ This lesson serves as a foundational overview of the **Elastic Load Balancer (EL
 
 ## Basic Architecture Overview
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 ### Visual Setup:
 

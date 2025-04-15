@@ -23,7 +23,7 @@ Dynamic scaling allows ASGs to automatically adjust capacity based on real-time 
 
 ### 1. **Simple Scaling**
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 - Triggered when a CloudWatch alarm enters an alarm state.
 - Scaling action is **fixed**:
@@ -42,7 +42,7 @@ If CPU < 50% → Remove 2 instances
 
 ### 2. **Step Scaling**
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 - Allows **graduated scaling** based on how far the metric deviates from the threshold.
 - Uses **step adjustments** to determine how many instances to add/remove.

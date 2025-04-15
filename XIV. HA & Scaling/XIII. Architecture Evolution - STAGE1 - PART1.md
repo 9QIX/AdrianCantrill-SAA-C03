@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 This hands-on project guides learners through evolving an AWS architecture for WordPress from a **single manual EC2 instance** to a **scalable, resilient, production-grade deployment**. This is part of the **AWS SA-C03 Certification training by Adrian Cantrill**.
 
