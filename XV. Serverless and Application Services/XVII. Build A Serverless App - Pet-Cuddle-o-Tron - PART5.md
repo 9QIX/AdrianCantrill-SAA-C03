@@ -1,6 +1,6 @@
 # Serverless Pet Cuddle-o-Tron - Stage 6
 
-![alt text](image-36.png)
+![alt text](./Images/image-36.png)
 
 This guide details the final steps to set up a serverless application frontend using AWS S3 static website hosting. It covers bucket setup, policy editing, HTML/CSS deployment, and integration with previously created API Gateway and Step Functions.
 
@@ -135,7 +135,7 @@ If successful:
 
 ## 8. Verify Step Function Execution
 
-![alt text](image-35.png)
+![alt text](./Images/image-35.png)
 
 1. Go to **Step Functions** in the AWS Console.
 2. Open the **PetCuddleOTron** state machine.

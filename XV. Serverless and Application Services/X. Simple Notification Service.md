@@ -15,7 +15,7 @@
 
 ## Core Components
 
-![alt text](image-20.png)
+![alt text](./Images/image-20.png)
 
 ### 1. **Topic**
 

@@ -1,6 +1,6 @@
 # AWS SQS: Delay Queues vs. Visibility Timeout
 
-![alt text](image-40.png)
+![alt text](./Images/image-40.png)
 
 This guide summarizes the key concepts, differences, and use cases of **Delay Queues** and **Visibility Timeout** in **Amazon SQS**, based on the Learn Cantrill.io AWS SA-C03 course.
 

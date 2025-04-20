@@ -8,7 +8,7 @@ This lesson expands on the architecture discussed in Part 1 by introducing **mes
 
 ### What is a Queue?
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 A **queue**:
 
@@ -39,12 +39,12 @@ A **queue**:
 4. **Queue-Triggered Processing**:
 
    - As messages appear in the queue, the Auto Scaling Group increases desired capacity (e.g., to 2).
-     ![alt text](image-3.png)
+     ![alt text](./Images/image-3.png)
 
    - EC2 instances launch, **poll the queue**, and retrieve the master video from S3.
    - After processing (e.g., transcoding), messages are deleted from the queue.
    - Once the queue is empty, the Auto Scaling Group scales back to 0.
-     ![alt text](image-5.png)
+     ![alt text](./Images/image-5.png)
 
 ## Benefits of Decoupling with Queues
 
@@ -55,7 +55,7 @@ A **queue**:
 
 ## Transition to Microservices
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 ### From Monolith to Microservices
 
@@ -73,7 +73,7 @@ Breaking a monolithic application into microservices allows for:
 
 ## Introduction to Event-Driven Architecture (EDA)
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 ### Key Components
 

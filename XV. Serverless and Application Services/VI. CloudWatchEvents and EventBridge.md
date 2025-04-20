@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 This lesson covers the transition from **CloudWatch Events** to **Amazon EventBridge**, highlighting how AWS handles real-time event streaming and automation through rules and targets.
 

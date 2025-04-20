@@ -17,7 +17,7 @@ Lambda has two networking modes:
 
 ### 2. **Public Networking (Default)**
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 - In this mode, Lambda runs **outside of a VPC** in the AWS public network.
 - It **can access**:
@@ -59,7 +59,7 @@ Lambda function fetching cat-themed media data from IMDb.
 
 #### **Old Architecture**:
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 - Each Lambda invocation would create an ENI.
 - High **cold start latency**.
@@ -68,7 +68,7 @@ Lambda function fetching cat-themed media data from IMDb.
 
 #### **New Architecture**:
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 - AWS creates **shared ENIs** based on:
   - Unique combinations of subnets and security groups.
@@ -84,7 +84,7 @@ Lambda function fetching cat-themed media data from IMDb.
 
 ## Lambda Permissions
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 Lambda permissions involve two key components:
 

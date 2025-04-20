@@ -61,7 +61,7 @@ SQS enables separation of application concerns:
 
 ## Example Architecture: Video Processing with Auto Scaling Groups
 
-![alt text](image-37.png)
+![alt text](./Images/image-37.png)
 
 ### Architecture Flow:
 
@@ -84,7 +84,7 @@ SQS enables separation of application concerns:
 
 ## Fan-Out Architecture: SNS + SQS
 
-![alt text](image-38.png)
+![alt text](./Images/image-38.png)
 
 When **multiple jobs** must be triggered from a **single event**, use a **fan-out pattern**:
 

@@ -17,7 +17,7 @@ API Gateway is a fully managed AWS service that allows you to create and manage 
 
 ## Architecture
 
-![alt text](image-23.png)
+![alt text](./Images/image-23.png)
 
 API Gateway sits between client applications (mobile apps, web apps, other APIs) and backend integrations. It acts as an intermediary that processes requests, connects to backend services, and returns responses.
 
@@ -37,7 +37,7 @@ API Gateway also integrates with CloudWatch for logging and metrics, and provide
 
 ## Authentication Methods
 
-![alt text](image-24.png)
+![alt text](./Images/image-24.png)
 
 API Gateway supports multiple authentication approaches:
 
@@ -54,7 +54,7 @@ API Gateway supports multiple authentication approaches:
 
 ## Stages
 
-![alt text](image-25.png)
+![alt text](./Images/image-25.png)
 
 API Gateway configurations are deployed to stages (e.g., prod, dev):
 
@@ -68,7 +68,7 @@ API Gateway configurations are deployed to stages (e.g., prod, dev):
 
 ## Error Codes
 
-![alt text](image-26.png)
+![alt text](./Images/image-26.png)
 
 ### Common API Error Codes
 
@@ -102,7 +102,7 @@ API Gateway configurations are deployed to stages (e.g., prod, dev):
 
 ## Caching
 
-![alt text](image-27.png)
+![alt text](./Images/image-27.png)
 
 - Configured per stage
 - Size ranges from 500MB to 237GB

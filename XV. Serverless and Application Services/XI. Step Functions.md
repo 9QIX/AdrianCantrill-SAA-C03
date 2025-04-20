@@ -8,7 +8,7 @@ AWS Step Functions is a serverless orchestration service that enables you to bui
 
 ### Limitations of Lambda for Complex Flows
 
-![alt text](image-21.png)
+![alt text](./Images/image-21.png)
 
 - **Lambda Execution Time Limit**: Lambda functions have a hard timeout limit of **15 minutes**.
 - **Statelessness**: Lambda functions are **stateless**, meaning data must be passed explicitly between function invocations.
@@ -99,7 +99,7 @@ A **task state** is how Step Functions perform real work. It integrates with ser
 
 ## Architecture Walkthrough: The Pet Cuddle-a-tron
 
-![alt text](image-22.png)
+![alt text](./Images/image-22.png)
 
 ### Scenario
 

@@ -2,7 +2,7 @@
 
 ## What Is AWS Lambda?
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 **AWS Lambda** is a _Function-as-a-Service (FaaS)_ that allows you to run small, focused pieces of code without provisioning or managing servers.
 

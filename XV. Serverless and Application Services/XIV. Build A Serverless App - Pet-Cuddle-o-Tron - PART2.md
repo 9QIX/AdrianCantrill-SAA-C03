@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-30.png)
+![alt text](./Images/image-30.png)
 
 In Part 2 of the project, you integrate **AWS Lambda** with **Simple Email Service (SES)** to send reminder emails as part of a serverless application. This involves:
 
@@ -19,7 +19,7 @@ In Part 2 of the project, you integrate **AWS Lambda** with **Simple Email Servi
 
 ## Step-by-Step Summary
 
-![alt text](image-31.png)
+![alt text](./Images/image-31.png)
 
 ### 1. Create Lambda Execution Role
 

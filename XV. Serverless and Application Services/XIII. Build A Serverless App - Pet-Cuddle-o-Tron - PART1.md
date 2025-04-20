@@ -1,6 +1,6 @@
 # PetCoddle-Atron Mini Project – Stage 1
 
-![alt text](image-29.png)
+![alt text](./Images/image-29.png)
 
 ## Overview
 
@@ -79,7 +79,7 @@ You’ll need to verify both the sender and receiver email addresses.
 
 ## What You've Accomplished in Stage 1
 
-![alt text](image-28.png)
+![alt text](./Images/image-28.png)
 
 - Configured SES in **sandbox mode**.
 - Verified one or two email addresses.

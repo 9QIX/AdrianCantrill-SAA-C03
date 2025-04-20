@@ -6,7 +6,7 @@ This lesson focuses on the **architectural differences** and **use cases** betwe
 
 ## Conceptual Analogy: Highways
 
-![alt text](image-39.png)
+![alt text](./Images/image-39.png)
 
 To grasp the difference intuitively:
 

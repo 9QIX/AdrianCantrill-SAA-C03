@@ -21,7 +21,7 @@ To illustrate architectural styles, an example is used:
 
 ## Monolithic Architecture
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ### Overview
 
@@ -54,7 +54,7 @@ To illustrate architectural styles, an example is used:
 
 ## Tiered Architecture (n-Tier)
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 ### Evolution from Monolith
 

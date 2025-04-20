@@ -10,7 +10,7 @@ Lambda supports **three main invocation types**:
 
 ### 1. Synchronous Invocation
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 - **Used When**: A client (CLI, SDK, API Gateway) waits for the result of the function.
 - **Behavior**:
@@ -26,7 +26,7 @@ Lambda supports **three main invocation types**:
 
 ### 2. Asynchronous Invocation
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 - **Used When**: AWS services (e.g., S3, SNS) trigger Lambda without expecting a response.
 - **Behavior**:
@@ -57,7 +57,7 @@ Separate routes can be defined for **success** and **failure** events.
 
 ### 3. Event Source Mapping Invocation
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 - **Used For**: Sources that **don’t push events**, but instead require **polling**.
 - **Examples**:
@@ -87,7 +87,7 @@ Separate routes can be defined for **success** and **failure** events.
 
 ## Lambda Versions and Aliases
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 ### Versions
 

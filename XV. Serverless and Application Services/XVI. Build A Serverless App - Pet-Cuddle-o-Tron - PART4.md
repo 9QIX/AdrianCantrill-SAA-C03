@@ -131,7 +131,7 @@ class DecimalEncoder(json.JSONEncoder):
 
 ## API Gateway Setup
 
-![alt text](image-34.png)
+![alt text](./Images/image-34.png)
 
 ### Step-by-Step Summary
 

@@ -75,7 +75,7 @@ This mindset promotes:
 
 ### Scenario Overview
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 **Julie**, a user, wants to upload videos to **PetTube**, a serverless web application.
 

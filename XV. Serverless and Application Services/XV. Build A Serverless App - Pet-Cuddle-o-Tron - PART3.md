@@ -12,7 +12,7 @@ This section of the demo covers how to implement a **Step Functions state machin
 
 ## Overview of the Workflow
 
-![alt text](image-32.png)
+![alt text](./Images/image-32.png)
 
 1. The **state machine** is the main orchestrator in this serverless app.
 2. It starts by **waiting for a specified duration**.
@@ -23,7 +23,7 @@ This enables **time-based cuddle reminders** to users through a fully serverless
 
 ## Step-by-Step Instructions
 
-![alt text](image-33.png)
+![alt text](./Images/image-33.png)
 
 ### Step 1: Create IAM Role for the State Machine
 
