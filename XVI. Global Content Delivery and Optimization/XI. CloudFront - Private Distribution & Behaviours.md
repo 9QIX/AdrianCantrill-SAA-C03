@@ -47,7 +47,7 @@ There are two methods:
 
 ## Example Use Case Architecture
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 ### Scenario
 

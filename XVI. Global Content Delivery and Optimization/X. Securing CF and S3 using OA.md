@@ -12,7 +12,7 @@ This lesson focuses on securing the **first leg** of the delivery path: from the
 
 ## Securing the Origin Fetch Side
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 The goal here is to ensure **only CloudFront can access your origin**, preventing end users from bypassing CloudFront to fetch content directly.
 
@@ -40,7 +40,7 @@ The goal here is to ensure **only CloudFront can access your origin**, preventin
 
 ### Architecture Flow
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 1. Create CloudFront Distribution.
 2. Use an **S3 bucket as origin**.
@@ -86,7 +86,7 @@ Use **one OAI per CloudFront distribution** for better manageability.
 
 ## Securing Custom Origins (Non-S3)
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 Since OAI doesn't work with custom origins, use the following methods:
 

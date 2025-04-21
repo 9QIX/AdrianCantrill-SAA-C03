@@ -77,7 +77,7 @@ ACM ensures certificates are **encrypted** and securely delivered to integrated 
 
 ## Visual Architecture Summary
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 - **ACM instances exist per region**:  
   Example: `us-west-1`, `us-east-1`, `ap-southeast-2`.

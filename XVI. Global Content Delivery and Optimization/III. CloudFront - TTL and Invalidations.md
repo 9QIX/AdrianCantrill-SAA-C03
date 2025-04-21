@@ -12,7 +12,7 @@ This document provides a comprehensive summary of the lesson covering **CloudFro
 
 ## How CloudFront Caching Works
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 ### **Basic Caching Workflow**
 

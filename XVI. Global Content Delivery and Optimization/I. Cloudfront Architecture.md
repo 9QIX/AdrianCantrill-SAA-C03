@@ -11,7 +11,7 @@ This lesson introduces or refreshes your knowledge of **Amazon CloudFront**, a g
 
 ## What is Amazon CloudFront?
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 **CloudFront** is a **Content Delivery Network (CDN)** designed to improve content delivery by:
 
@@ -24,7 +24,7 @@ It ensures efficient and performant content delivery from an **origin** (such as
 
 ## CloudFront Scenario Example
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 Imagine an application hosted in **Australia** gaining global users like Bob (US) and Julie (UK). Without CloudFront:
 
@@ -110,7 +110,7 @@ https://animalsforlife.org
 
 ## Behaviors in CloudFront
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 ### What Are Behaviors?
 

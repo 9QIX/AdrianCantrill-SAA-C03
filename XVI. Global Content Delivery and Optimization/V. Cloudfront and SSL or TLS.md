@@ -92,7 +92,7 @@ When using CloudFront, there are two SSL/TLS connections:
 
 ### Architecture Overview
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 ### Viewer Connection (Customer → CloudFront)
 

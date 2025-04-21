@@ -17,7 +17,7 @@ You simulate running a globally popular cat website, originally served directly 
 
 ## Initial Architecture: Static Website on S3
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 - A CloudFormation stack creates an S3 bucket named `top10cats` with:
   - Static website hosting enabled
