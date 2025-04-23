@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 This is the first of a three-part demo series from Cantrill.io focusing on VPC endpoints in AWS. The lesson covers:
 

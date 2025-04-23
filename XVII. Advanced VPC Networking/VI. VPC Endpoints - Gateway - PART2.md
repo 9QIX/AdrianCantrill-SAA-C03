@@ -11,7 +11,7 @@ This lesson focuses on implementing and testing **S3 Gateway Endpoints** within 
 
 ## 1. Architecture Recap
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 - **Private VPC** (no IGW/NAT)
 - EC2 instance in private subnet

@@ -21,7 +21,7 @@ To capture the **actual content** of network packets, you would need to use tool
 
 ## Use Case Example: Application Architecture
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 A typical architecture example:
 
@@ -53,7 +53,7 @@ When configuring flow logs, you can choose to capture:
 
 ## Flow Log Record Format
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 Each **VPC Flow Log record** is a **row** of log data with specific fields. Important fields include:
 

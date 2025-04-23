@@ -91,7 +91,7 @@ Private Instance → SNS Public DNS → Public IP → Internet Gateway → SNS
 
 ### With Interface Endpoint (no private DNS):
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 ```plaintext
 Private Instance → SNS Custom DNS → Interface Endpoint IP → SNS
@@ -101,7 +101,7 @@ Private Instance → SNS Custom DNS → Interface Endpoint IP → SNS
 
 ### With Interface Endpoint + Private DNS:
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 ```plaintext
 Private Instance → Default SNS DNS → Private IP (overridden) → Interface Endpoint → SNS

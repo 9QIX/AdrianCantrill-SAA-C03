@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 This demo walks through creating and configuring VPC peering connections between three different Virtual Private Clouds (VPCs): `VPCA`, `VPCB`, and `VPCC`. The setup is automated via a CloudFormation template and involves:
 

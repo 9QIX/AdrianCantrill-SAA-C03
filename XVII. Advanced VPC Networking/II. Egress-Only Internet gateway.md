@@ -32,7 +32,7 @@ An **EOIGW** is a gateway that:
 
 ## Architecture and Behavior
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 ### Typical Architecture
 

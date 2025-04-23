@@ -21,7 +21,7 @@ Gateway Endpoints allow **resources within a VPC** (particularly **private subne
 
 ### Traditional Setup (Without Gateway Endpoints)
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 To access services like S3 from a private subnet:
 
@@ -50,7 +50,7 @@ They allow **direct private access** to the services **within AWS’s internal n
 
 ## Routing with Gateway Endpoints
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 ### Example:
 

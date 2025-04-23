@@ -50,7 +50,7 @@ When creating a VPC peering connection, you can enable an option that allows **p
 
 ## Architecture and Configuration
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 ### Example Setup
 

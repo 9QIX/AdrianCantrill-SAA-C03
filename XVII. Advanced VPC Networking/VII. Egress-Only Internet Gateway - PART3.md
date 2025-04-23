@@ -4,7 +4,7 @@ This lesson is the final part of a multi-step lab series, focused on enabling se
 
 ## Objective
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 Configure a **private EC2 instance** with IPv6 addressing to communicate with the public IPv6 internet, while ensuring:
 
