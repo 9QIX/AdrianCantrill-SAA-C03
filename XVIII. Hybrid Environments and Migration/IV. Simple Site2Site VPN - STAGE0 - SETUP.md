@@ -1,4 +1,4 @@
-# Site-to-Site VPN
+# Simple Site2Site VPN - STAGE0 - SETUP
 
 ## Overview
 
@@ -19,6 +19,10 @@ This mini project provides hands-on experience in setting up a **Site-to-Site VP
 - The goal is to create a **VPN tunnel** between the PF Sense router and AWS VPC securely.
 
 ## Getting Started
+
+### Resources Used
+
+[1-Click Deployment](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://learn-cantrill-labs.s3.amazonaws.com/aws-simple-site2site-vpn/infra.yaml&stackName=S2SVPN)
 
 ### AWS Account Requirements
 
