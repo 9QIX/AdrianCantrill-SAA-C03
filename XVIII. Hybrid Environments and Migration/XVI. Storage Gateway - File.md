@@ -1,4 +1,4 @@
-# AWS Storage Gateway
+# AWS Storage Gateway - File Mode
 
 ## Overview
 
