@@ -51,7 +51,7 @@ Before exploring VTL, it’s essential to understand traditional tape-based back
 
 ## Traditional Tape Backup Architecture
 
-![alt text](image-25.png)
+![alt text](./Images/image-25.png)
 
 - **On-Premises Setup:**
 
@@ -77,7 +77,7 @@ VTL mode simplifies and reduces costs:
 
 ### Architecture Overview
 
-![alt text](image-26.png)
+![alt text](./Images/image-26.png)
 
 - **Business Premises:**  
   Still maintain backup servers.

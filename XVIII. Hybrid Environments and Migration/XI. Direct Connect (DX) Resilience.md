@@ -6,7 +6,7 @@ As a cloud architect, understanding failure points and how to design **resilient
 
 ## Basic Direct Connect Architecture (Non-Resilient)
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 A typical DX deployment includes:
 
@@ -40,7 +40,7 @@ A typical DX deployment includes:
 
 ## Improving Resilience: Basic Redundancy
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 ### Architecture Enhancements
 
@@ -60,7 +60,7 @@ A typical DX deployment includes:
 
 ## Further Resilience: Dual Locations
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 ### Architecture Evolution
 
@@ -79,7 +79,7 @@ A typical DX deployment includes:
 
 ## Maximum Resilience Architecture
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 ### Final High-Availability Design
 

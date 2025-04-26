@@ -37,7 +37,7 @@ The key to success in the AWS exam (and real-world architecture) is understandin
 
 # Volume Gateway: **Volume Stored Mode**
 
-![alt text](image-22.png)
+![alt text](./Images/image-22.png)
 
 ## How It Works
 
@@ -73,9 +73,9 @@ The key to success in the AWS exam (and real-world architecture) is understandin
 
 # Volume Gateway: **Volume Cached Mode**
 
-![alt text](image-23.png)
+![alt text](./Images/image-23.png)
 
-![alt text](image-24.png)
+![alt text](./Images/image-24.png)
 
 ## How It Works
 

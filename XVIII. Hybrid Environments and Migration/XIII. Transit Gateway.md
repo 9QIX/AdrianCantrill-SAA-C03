@@ -32,7 +32,7 @@ TGW uses **attachments** to connect to various resources:
 
 ### Traditional Architecture (Without TGW)
 
-![alt text](image-20.png)
+![alt text](./Images/image-20.png)
 
 - Example: "Animals for Life" company with 4 VPCs (A, B, C, D) + Corporate Office.
 - Using VPC Peering:
@@ -43,7 +43,7 @@ TGW uses **attachments** to connect to various resources:
 
 ### Using Transit Gateway
 
-![alt text](image-21.png)
+![alt text](./Images/image-21.png)
 
 - Same 4 VPCs and Corporate Office.
 - Create a **Transit Gateway** in AWS account.

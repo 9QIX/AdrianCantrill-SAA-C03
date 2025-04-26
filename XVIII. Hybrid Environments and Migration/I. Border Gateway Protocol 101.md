@@ -2,7 +2,7 @@
 
 ## **Introduction to BGP**
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 **BGP (Border Gateway Protocol)** is a **routing protocol** responsible for determining how data flows from one network to another, particularly across different **autonomous systems (AS)**.
 

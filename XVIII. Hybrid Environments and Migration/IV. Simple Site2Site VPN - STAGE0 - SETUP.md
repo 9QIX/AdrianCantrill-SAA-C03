@@ -6,7 +6,7 @@ This mini project provides hands-on experience in setting up a **Site-to-Site VP
 
 ## Project Architecture
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 - **AWS Environment (Left Side)**
 
@@ -75,7 +75,7 @@ Pin the following AWS services to your **console favorites** for quick access:
 
 ## Next Steps
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 After the CloudFormation stack finishes deployment:
 

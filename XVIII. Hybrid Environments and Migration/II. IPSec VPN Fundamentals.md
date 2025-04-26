@@ -6,7 +6,7 @@ This lesson explains **IPsec** (Internet Protocol Security) and its role in crea
 
 ## What is IPsec?
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 - **IPsec** is a **suite of protocols** that works together to **secure communication** between two endpoints, called **peers**.
 - It establishes **encrypted tunnels** over insecure networks (like the Internet).
@@ -50,7 +50,7 @@ When interesting traffic is detected:
 
 ### Phase 1: IKE (Internet Key Exchange) Phase 1
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 - **Purpose**: Authentication and key agreement.
 - **Versions**:
@@ -73,7 +73,7 @@ When interesting traffic is detected:
 
 ### Phase 2: IKE Phase 2
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 - **Built on top of Phase 1** using the previously established tunnel and key.
 - **Purpose**: Define how the VPN will encrypt traffic.
@@ -119,7 +119,7 @@ Send all traffic to 10.0.0.0/16 via VPN tunnel.
 
 ## Summary Diagram
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 ### Route-Based VPN Architecture:
 

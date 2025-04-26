@@ -37,7 +37,7 @@ This section focuses on **AWS Storage Gateway running in File Mode**, expanding 
 
 ## Typical Architecture
 
-![alt text](image-27.png)
+![alt text](./Images/image-27.png)
 
 - **One file share maps to one S3 bucket** (bucket share).
 - **10 shares per gateway** allowed.
@@ -52,7 +52,7 @@ This section focuses on **AWS Storage Gateway running in File Mode**, expanding 
 
 ### 1. **Multi-Site Architecture**
 
-![alt text](image-28.png)
+![alt text](./Images/image-28.png)
 
 - Multiple on-premises sites can connect to the **same S3 bucket** via different gateways.
 - **Challenge:**
@@ -71,7 +71,7 @@ This section focuses on **AWS Storage Gateway running in File Mode**, expanding 
 
 ## Replication and Disaster Recovery (DR)
 
-![alt text](image-29.png)
+![alt text](./Images/image-29.png)
 
 - **Cross-region replication (CRR)** can be configured between S3 buckets.
 - Enables **multi-region DR** with minimal infrastructure changes.
@@ -81,7 +81,7 @@ This section focuses on **AWS Storage Gateway running in File Mode**, expanding 
 
 ## Cost Optimization Using S3 Lifecycle Policies
 
-![alt text](image-30.png)
+![alt text](./Images/image-30.png)
 
 - **S3 Storage Classes:**
 

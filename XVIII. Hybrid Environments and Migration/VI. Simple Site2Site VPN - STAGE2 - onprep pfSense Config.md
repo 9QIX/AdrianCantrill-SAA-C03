@@ -7,7 +7,7 @@
 
 ## Overview
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 This stage involves configuring a simulated **on-premises site** using **pfSense** to establish **two IPSec VPN tunnels** with AWS. These tunnels ensure **high availability** by connecting to two VPN endpoints in AWS.
 

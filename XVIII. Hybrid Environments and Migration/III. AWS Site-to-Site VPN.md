@@ -59,7 +59,7 @@ AWS Site-to-Site VPN enables secure connectivity between your AWS environment (s
 
 ### Architecture Diagram (Conceptual):
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 - Each tunnel is an **IPsec connection** to a VGW endpoint.
 - Redundancy is limited if only **one customer router** is used.
@@ -79,7 +79,7 @@ AWS Site-to-Site VPN enables secure connectivity between your AWS environment (s
 
 ## VPN Types: Static vs Dynamic
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 ### Static VPN
 

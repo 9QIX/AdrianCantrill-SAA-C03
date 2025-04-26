@@ -95,7 +95,7 @@ This will provide a detailed VPN configuration file used to manually set up PF S
 
 ## Summary of Architecture at This Stage
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 - ✅ AWS Virtual Private Gateway created and attached to VPC
 - ✅ Customer Gateway object created for PF Sense

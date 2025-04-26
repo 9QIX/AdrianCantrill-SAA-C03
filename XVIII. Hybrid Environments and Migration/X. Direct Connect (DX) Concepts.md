@@ -95,7 +95,7 @@ Each VIF determines **which AWS resources** your Direct Connect line can reach.
 
 ## Visual Architecture Summary
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 # Additional Notes
 

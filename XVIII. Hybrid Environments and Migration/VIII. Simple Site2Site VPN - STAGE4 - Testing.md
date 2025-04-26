@@ -7,7 +7,7 @@
 
 ## Objective
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 In this stage, you simulate using a typical on-premises Windows machine to:
 

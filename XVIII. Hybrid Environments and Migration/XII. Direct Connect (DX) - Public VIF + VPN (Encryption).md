@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-19.png)
+![alt text](./Images/image-19.png)
 
 This lesson covers how to **securely access private VPC networks** using a combination of:
 

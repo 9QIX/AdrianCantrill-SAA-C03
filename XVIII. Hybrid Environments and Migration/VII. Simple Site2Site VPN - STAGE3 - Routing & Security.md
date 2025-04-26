@@ -15,7 +15,7 @@ You will:
 
 ## Architecture Recap
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 - **Left Side**: AWS Environment
 - **Right Side**: Simulated On-Premises Environment
@@ -123,7 +123,7 @@ You should now see:
 
 ## Final Outcome
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 At this point:
 
