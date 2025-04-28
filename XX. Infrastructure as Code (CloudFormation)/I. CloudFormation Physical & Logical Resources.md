@@ -1,10 +1,8 @@
-![alt text](image.png)
-
-![alt text](image-1.png)
-
 # AWS CloudFormation: Logical Resources vs Physical Resources
 
 ## Introduction to CloudFormation
+
+![alt text](image.png)
 
 - **CloudFormation** is an AWS service that allows you to define, provision, and manage AWS infrastructure through **code**.
 - Infrastructure is declared using a **template** written in either **YAML** or **JSON** formats.
@@ -18,6 +16,8 @@
   - One template can create **one** or **many stacks** across different **AWS accounts** and **regions**.
 
 ## Logical Resources
+
+![alt text](image-1.png)
 
 - **Logical resources** are entries in a CloudFormation template.
 - They define **what resources** to create (e.g., an EC2 instance, an S3 bucket).
