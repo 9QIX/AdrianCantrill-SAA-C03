@@ -24,7 +24,7 @@ The purpose was to highlight the differences between standard resource deploymen
 
 ## Architecture Implemented
 
-![alt text](image-27.png)
+![alt text](./Images/image-27.png)
 
 - **Step 1:** Create a normal, empty S3 bucket using CloudFormation.
 - **Step 2:** Create a Lambda function.

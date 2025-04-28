@@ -31,7 +31,7 @@ To address the above problem:
 
 ## Creation Policies
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 - **Attach directly** to specific resources like `AWS::EC2::Instance` or `AWS::AutoScaling::AutoScalingGroup`.
 - Define:
@@ -61,7 +61,7 @@ To address the above problem:
 
 ## Wait Conditions
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 - **Separate logical resource** (`AWS::CloudFormation::WaitCondition`) used for **general signaling needs**.
 - **Not tied** to specific resources.

@@ -94,7 +94,7 @@ Resources:
 
 ## Visual Example
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 - The **Elastic IP** must wait until the **Internet Gateway Attachment** is complete.
 - `DependsOn` enforces this order.

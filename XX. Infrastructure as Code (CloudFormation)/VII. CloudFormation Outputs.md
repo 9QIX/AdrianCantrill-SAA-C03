@@ -26,7 +26,7 @@
 
 ## Basic Structure of Outputs
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 - An output consists of:
   1. **Name**: Logical identifier for the output.

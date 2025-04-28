@@ -36,7 +36,7 @@ The architecture for custom resources is straightforward:
 
 ## Visual Example: Custom Resource Architecture
 
-![alt text](image-26.png)
+![alt text](./Images/image-26.png)
 
 ### Without Custom Resource:
 

@@ -51,7 +51,7 @@ In this lesson, we explore **CloudFormation Stack Roles**, a key feature for sec
 
 ## Visual Example Scenario
 
-![alt text](image-21.png)
+![alt text](./Images/image-21.png)
 
 | Identity                      | Permissions                                | Actions                                            |
 | ----------------------------- | ------------------------------------------ | -------------------------------------------------- |

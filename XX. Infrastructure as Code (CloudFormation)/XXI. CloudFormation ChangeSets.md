@@ -11,7 +11,7 @@ Change Sets allow you to **preview changes** before applying them to your stack,
 
 ## Typical CloudFormation Workflow
 
-![alt text](image-25.png)
+![alt text](./Images/image-25.png)
 
 1. **Create Stack**:
 

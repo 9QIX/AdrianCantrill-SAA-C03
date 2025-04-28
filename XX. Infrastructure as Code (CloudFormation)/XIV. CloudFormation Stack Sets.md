@@ -40,7 +40,7 @@ There are **two ways** to configure permissions for StackSets:
 
 ## Visual Overview of StackSets Architecture
 
-![alt text](image-19.png)
+![alt text](./Images/image-19.png)
 
 - **Admin Account**:
   - Create a StackSet using a normal CloudFormation template (e.g., create an S3 bucket).

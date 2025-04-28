@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 - This video introduces **CloudFormation Mappings**, a feature used to design **portable** and **dynamic** templates.
 - Mappings allow **key-value** lookups within a template to adjust behavior based on certain inputs (e.g., region, environment).

@@ -18,7 +18,7 @@ In this lesson, we explore **CloudFormation Init**, a native feature of AWS Clou
 
 ## CloudFormation Init - Key Concepts
 
-![alt text](image-22.png)
+![alt text](./Images/image-22.png)
 
 ### 1. Native to CloudFormation
 

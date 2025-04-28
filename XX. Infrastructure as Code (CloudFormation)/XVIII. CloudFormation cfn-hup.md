@@ -46,7 +46,7 @@ This lesson introduces **CFN-Hup**, a critical tool that extends the capability 
 
 ## Visual Flow
 
-![alt text](image-24.png)
+![alt text](./Images/image-24.png)
 
 ```plaintext
 CloudFormation Template

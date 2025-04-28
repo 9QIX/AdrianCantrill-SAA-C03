@@ -14,7 +14,7 @@ They are referenced the same way as other parameters using the `Ref` function bu
 
 ## Template Parameters
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 - Allow external sources (users, automation) to **input values** during stack creation or update.
 - Examples:
@@ -42,7 +42,7 @@ They are referenced the same way as other parameters using the `Ref` function bu
 
 ## Pseudo Parameters
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 - Provided by **AWS**, no need for user declaration.
 - Available automatically in templates.

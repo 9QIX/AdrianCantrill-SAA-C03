@@ -221,7 +221,7 @@ def delete_objects(bucket, prefix):
 
 # CloudFormation Stack Creation Flow
 
-![alt text](image-28.png)
+![alt text](./Images/image-28.png)
 
 1. **S3 Bucket (`animalpics`)** created first.
 2. **IAM Role (`S3CopyRole`)** created after the bucket.

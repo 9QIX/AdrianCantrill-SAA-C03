@@ -11,7 +11,7 @@ Understanding when and how to use each is important for both the AWS certificati
 
 ## Single CloudFormation Stack Architecture
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 - A **CloudFormation Stack** is **isolated** and manages a set of AWS resources that are created, updated, and deleted together.
 - Example resources: **VPC**, **DynamoDB**, **S3**, **EC2**, **Lambda**, **SNS**, **SQS**, **Directory Service**.
@@ -24,7 +24,7 @@ Understanding when and how to use each is important for both the AWS certificati
 
 ## Multi-Stack Architecture
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 When dealing with complex architectures, you use **multiple stacks**. Two approaches are:
 

@@ -13,7 +13,7 @@ This lesson builds on the previous discussion of **nested stacks** and introduce
 
 ## The Problem: Isolation of Stacks
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 - **Stacks are isolated by design**: Resources in one stack aren't natively accessible by another stack.
 - Example: Application stacks (AppStack1 and AppStack2) **cannot reference** the subnets of a Shared VPC Stack directly.
@@ -21,7 +21,7 @@ This lesson builds on the previous discussion of **nested stacks** and introduce
 
 ## Introducing Cross-Stack References
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 **Purpose**: Enable one stack to **dynamically reference** outputs from another stack without duplicating resources.
 

@@ -8,7 +8,7 @@ In this lesson, we are introduced to **CloudFormation Intrinsic Functions** — 
 
 ### 1. `Ref` and `GetAtt` (Get Attribute)
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 - **`Ref`**:  
   References the main value of a parameter or a logical resource.
@@ -28,7 +28,7 @@ InstancePublicDnsName: !GetAtt MyInstance.PublicDnsName # Gets an attribute of a
 
 ### 2. `GetAZs` and `Select`
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 - **`GetAZs`**:  
   Retrieves a list of available **Availability Zones** (AZs) for a region.
@@ -50,7 +50,7 @@ AvailabilityZone: !Select
 
 ### 3. `Join` and `Split`
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 - **`Join`**:  
   Combines list elements into a single string with a delimiter.
@@ -80,7 +80,7 @@ SplitList: !Split
 
 ### 4. `Base64`
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 - Converts a **plain text** into **Base64-encoded** text.
 - Required for **User Data scripts** in EC2.
@@ -98,7 +98,7 @@ UserData:
 
 ### 5. `Sub` (Substitute)
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 - Allows **variable substitution** inside text.
 - Replaces placeholders with actual runtime values.

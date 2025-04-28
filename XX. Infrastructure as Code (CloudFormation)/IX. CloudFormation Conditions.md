@@ -42,7 +42,7 @@ The outcome of these intrinsic functions determines if the condition itself is *
 
 ### Flow:
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 1. **User Input**:  
    Developer sets `EnvType` to either `dev` or `prod` during stack creation.

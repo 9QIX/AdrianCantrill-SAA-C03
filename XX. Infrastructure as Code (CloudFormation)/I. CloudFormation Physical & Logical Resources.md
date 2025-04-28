@@ -2,7 +2,7 @@
 
 ## Introduction to CloudFormation
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 - **CloudFormation** is an AWS service that allows you to define, provision, and manage AWS infrastructure through **code**.
 - Infrastructure is declared using a **template** written in either **YAML** or **JSON** formats.
@@ -17,7 +17,7 @@
 
 ## Logical Resources
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 - **Logical resources** are entries in a CloudFormation template.
 - They define **what resources** to create (e.g., an EC2 instance, an S3 bucket).

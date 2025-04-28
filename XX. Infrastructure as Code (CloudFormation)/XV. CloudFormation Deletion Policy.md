@@ -41,7 +41,7 @@ To control the behavior when deleting resources, **Deletion Policies** can be sp
 
 ## Visual Understanding
 
-![alt text](image-20.png)
+![alt text](./Images/image-20.png)
 
 - **Default**  
   → Deleting the stack removes all physical resources.
