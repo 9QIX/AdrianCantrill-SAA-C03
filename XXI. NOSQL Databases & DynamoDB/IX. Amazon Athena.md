@@ -34,7 +34,7 @@ Athena uses a **Schema on Read** approach:
 
 ## How It Works
 
-![alt text](image-14.png)
+![alt text](./Images/image-14.png)
 
 ```mermaid
 flowchart LR

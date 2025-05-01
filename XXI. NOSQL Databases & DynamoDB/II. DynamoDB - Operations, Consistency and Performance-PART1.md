@@ -36,7 +36,7 @@ DynamoDB supports **two capacity modes**:
 
 ## 3. Query Operation
 
-![alt text](image-3.png)
+![alt text](./Images/image-3.png)
 
 ### Basics
 
@@ -83,7 +83,7 @@ Always try to:
 
 ## 4. Scan Operation
 
-![alt text](image-4.png)
+![alt text](./Images/image-4.png)
 
 ### Purpose
 

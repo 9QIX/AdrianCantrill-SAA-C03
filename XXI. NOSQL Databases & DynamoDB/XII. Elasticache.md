@@ -27,7 +27,7 @@ Amazon **ElastiCache** is a **fully managed in-memory caching service** that sup
 
 #### Architecture Flow:
 
-![alt text](image-16.png)
+![alt text](./Images/image-16.png)
 
 1. **User requests data** via application.
 2. App **checks ElastiCache** (cache).
@@ -45,7 +45,7 @@ Amazon **ElastiCache** is a **fully managed in-memory caching service** that sup
 
 #### Example Scenario:
 
-![alt text](image-17.png)
+![alt text](./Images/image-17.png)
 
 - App deployed in **Auto Scaling Group** behind a **Load Balancer**.
 - User session data is stored in **ElastiCache**.

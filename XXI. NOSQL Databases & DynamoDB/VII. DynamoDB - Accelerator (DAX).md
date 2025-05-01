@@ -6,7 +6,7 @@
 
 ## Traditional Cache vs DAX
 
-![alt text](image-11.png)
+![alt text](./Images/image-11.png)
 
 ### Traditional Cache Flow
 
@@ -40,7 +40,7 @@
 
 ## DAX Architecture
 
-![alt text](image-12.png)
+![alt text](./Images/image-12.png)
 
 - **Deployed within a VPC** and spans **multiple AZs** for high availability.
 - **DAX Cluster Components:**

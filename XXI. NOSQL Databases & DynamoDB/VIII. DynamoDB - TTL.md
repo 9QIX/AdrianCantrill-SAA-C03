@@ -41,7 +41,7 @@ Each item includes:
 
 ## TTL Processing Architecture
 
-![alt text](image-13.png)
+![alt text](./Images/image-13.png)
 
 ### Step 1: **Enable TTL on the Table**
 

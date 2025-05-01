@@ -38,7 +38,7 @@
 
 ## DynamoDB Data Model
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 ### 1. **Table**
 
@@ -89,7 +89,7 @@ There are two types of primary keys:
 
 ### 1. **On-Demand Backups**
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 - Manual snapshots of a table
 - Used for:
@@ -99,7 +99,7 @@ There are two types of primary keys:
 
 ### 2. **Point-In-Time Recovery (PITR)**
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 - Must be enabled per table
 - Maintains a rolling 35-day history of changes

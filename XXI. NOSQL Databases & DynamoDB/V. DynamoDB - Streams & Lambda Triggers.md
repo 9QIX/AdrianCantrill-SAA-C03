@@ -12,7 +12,7 @@ A **DynamoDB Stream** is a **time-ordered list** of item-level changes (inserts,
 
 ## Stream View Types
 
-![alt text](image-8.png)
+![alt text](./Images/image-8.png)
 
 DynamoDB Streams can be configured with one of the following **view types**, which determine what data is written to the stream when a change occurs:
 
@@ -61,7 +61,7 @@ This helps in scenarios where items are added or removed entirely.
 
 ## DynamoDB Triggers (Event-Driven Architecture)
 
-![alt text](image-9.png)
+![alt text](./Images/image-9.png)
 
 A **trigger** is a serverless mechanism that automatically **invokes a Lambda function** in response to changes in a DynamoDB table.
 

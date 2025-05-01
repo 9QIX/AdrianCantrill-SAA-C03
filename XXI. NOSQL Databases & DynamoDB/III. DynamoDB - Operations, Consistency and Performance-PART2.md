@@ -2,7 +2,7 @@
 
 ## DynamoDB Read Consistency Models
 
-![alt text](image-5.png)
+![alt text](./Images/image-5.png)
 
 ### 1. Eventually Consistent Reads
 

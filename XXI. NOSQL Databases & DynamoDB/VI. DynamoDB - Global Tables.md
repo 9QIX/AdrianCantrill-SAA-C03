@@ -13,7 +13,7 @@ This is especially useful for:
 
 ## Key Concepts
 
-![alt text](image-10.png)
+![alt text](./Images/image-10.png)
 
 ### 1. **Multi-Master Replication**
 

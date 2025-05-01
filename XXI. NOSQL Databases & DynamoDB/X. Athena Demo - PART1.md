@@ -16,7 +16,7 @@ This lesson demonstrates how to use **Amazon Athena**, a **serverless, interacti
 
 ## Use Case & Architecture
 
-![alt text](image-15.png)
+![alt text](./Images/image-15.png)
 
 **Scenario**:  
 _Animals for Life_ has mobile teams that need real-time information on local veterinary services to vaccinate animals. The requirements are:

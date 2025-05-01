@@ -2,7 +2,7 @@
 
 ## Overview
 
-![alt text](image-19.png)
+![alt text](./Images/image-19.png)
 
 Amazon Redshift is a **single-AZ** (Availability Zone) data warehouse solution. By default, Redshift is **not highly available across multiple AZs**, which poses a risk in the event of an AZ failure. To mitigate this, AWS provides various **backup and resilience features** that architects must understand and apply when designing reliable data warehouse solutions.
 

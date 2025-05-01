@@ -17,7 +17,7 @@ Indexes allow you to create **alternative views** of your table’s data, improv
 
 ## Local Secondary Indexes (LSI)
 
-![alt text](image-6.png)
+![alt text](./Images/image-6.png)
 
 ### Key Characteristics
 
@@ -67,7 +67,7 @@ LSIs (and GSIs) are **sparse**:
 
 ## Global Secondary Indexes (GSI)
 
-![alt text](image-7.png)
+![alt text](./Images/image-7.png)
 
 ### Key Characteristics
 

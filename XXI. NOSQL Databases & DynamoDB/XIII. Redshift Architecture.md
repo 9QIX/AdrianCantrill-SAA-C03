@@ -107,7 +107,7 @@ Each compute node is divided into **slices**, each with:
 
 ## Visual Architecture Summary
 
-![alt text](image-18.png)
+![alt text](./Images/image-18.png)
 
 - Redshift cluster is accessed via the **leader node**.
 - Data within compute nodes is processed and stored in **parallel slices**.
