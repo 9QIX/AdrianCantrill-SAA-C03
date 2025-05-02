@@ -6,7 +6,7 @@ This lesson is the first part of a two-part series, focused entirely on **exam s
 
 ## Understanding AWS Exam Difficulty Distribution
 
-![alt text](image.png)
+![alt text](./Images/image.png)
 
 The AWS exams typically follow a perceived difficulty spread:
 

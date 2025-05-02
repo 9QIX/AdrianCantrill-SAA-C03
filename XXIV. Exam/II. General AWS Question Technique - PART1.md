@@ -25,7 +25,7 @@ AWS exam questions generally follow a standard structure:
 
 ### 2. **Answer Elimination First**
 
-![alt text](image-1.png)
+![alt text](./Images/image-1.png)
 
 - Look for **obviously incorrect answers** to reduce mental load.
 - If you can exclude even one or two options early, it makes analysis faster and more accurate.
@@ -34,7 +34,7 @@ AWS exam questions generally follow a standard structure:
 
 ### 3. **Understand Themes or Constraints**
 
-![alt text](image-2.png)
+![alt text](./Images/image-2.png)
 
 Questions often revolve around one of the following:
 
